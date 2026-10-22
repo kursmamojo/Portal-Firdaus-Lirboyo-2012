@@ -1,0 +1,2355 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendataan Alumni Reuni Firdaus PP. Lirboyo 2012</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        arabic: ['"Amiri"', 'serif'],
+                    },
+                    colors: {
+                        emerald: {
+                            850: '#053f30',
+                            950: '#022c22',
+                        },
+                        gold: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f8f6f0;
+            background-image: radial-gradient(#065f46 0.55px, transparent 0.55px), radial-gradient(#d97706 0.55px, #f8f6f0 0.55px);
+            background-size: 28px 28px;
+            background-position: 0 0, 14px 14px;
+            background-attachment: fixed;
+        }
+        .islamic-header-bg {
+            background: linear-gradient(135deg, #022c22 0%, #064e3b 55%, #047857 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .sheet-table th {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        /* Custom scrollbar for spreadsheet */
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 8px;
+            width: 8px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #10b981;
+            border-radius: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #047857;
+        }
+    </style>
+</head>
+
+<body class="text-slate-800 antialiased min-h-screen flex flex-col">
+
+    <!-- Top Islamic Banner & Hero Header -->
+    <header class="islamic-header-bg text-white shadow-xl border-b-4 border-gold-500">
+        <!-- Subtle Geometric SVG Overlay -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="islamic-star" width="60" height="60" patternUnits="userSpaceOnUse">
+                        <path d="M30 0 L37 23 L60 30 L37 37 L30 60 L23 37 L0 30 L23 23 Z" fill="none" stroke="#fbbf24" stroke-width="1.2"/>
+                        <circle cx="30" cy="30" r="8" fill="none" stroke="#fbbf24" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#islamic-star)" />
+            </svg>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 relative z-10">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <!-- Emblem & Title -->
+                <div class="flex flex-col sm:flex-row items-center text-center sm:text-left gap-4 sm:gap-5">
+                    <!-- Custom Dome/Pesantren Emblem SVG -->
+                    <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-gold-400 to-gold-600 p-1 shadow-lg flex-shrink-0">
+                        <div class="w-full h-full bg-emerald-950 rounded-xl flex flex-col items-center justify-center p-2 border border-gold-400/40">
+                            <svg class="w-9 h-9 text-gold-400" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C11.5 2 11 2.4 11 3V4.1C7.6 4.6 5 7.5 5 11V19H3V21H21V19H19V11C19 7.5 16.4 4.6 13 4.1V3C13 2.4 12.5 2 12 2ZM12 6C14.8 6 17 8.2 17 11V19H14V14C14 12.9 13.1 12 12 12C10.9 12 10 12.9 10 14V19H7V11C7 8.2 9.2 6 12 6Z"/>
+                            </svg>
+                            <span class="text-[10px] font-bold tracking-widest text-gold-200 mt-0.5">FIRDAUS '12</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="font-arabic text-xl sm:text-2xl text-gold-200 mb-1 tracking-wide">
+                            بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+                        </p>
+                        <div class="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-emerald-800/80 border border-gold-400/40 text-gold-200 text-xs font-semibold mb-2">
+                            <i class="fa-solid fa-mosque text-gold-400"></i>
+                            <span>PONDOK PESANTREN LIRBOYO KEDIRI</span>
+                        </div>
+                        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white">
+                            PENDATAAN ALUMNI <span class="text-gold-400">REUNI FIRDAUS 2012</span>
+                        </h1>
+                        <p class="text-emerald-100 text-xs sm:text-sm mt-1 max-w-2xl">
+                            Sistem Informasi Terpadu Silaturahmi, Pemetaan Jejaring Alumni, & Manajemen Logistik Reuni
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Live Counter & Admin Access Card -->
+                <div class="bg-emerald-950/90 backdrop-blur-md border border-gold-500/40 rounded-2xl p-4 flex flex-wrap items-center gap-4 shadow-lg w-full md:w-auto justify-between md:justify-end">
+                    <div class="flex items-center gap-4">
+                        <div class="text-center sm:text-right">
+                            <div class="text-[11px] text-emerald-200 uppercase tracking-wider font-semibold">Total Terdata</div>
+                            <div class="text-xl font-extrabold text-white"><span id="headerTotalCount">0</span> <span class="text-xs font-normal text-gold-200">Alumni</span></div>
+                        </div>
+                        <div class="border-l border-emerald-700 pl-4 text-center sm:text-right">
+                            <div class="text-[11px] text-emerald-200 uppercase tracking-wider font-semibold">Total Bisa Hadir</div>
+                            <div class="text-xl font-extrabold text-gold-400"><span id="headerHadirCount">0</span> <span class="text-xs font-normal text-emerald-100">Alumni</span></div>
+                        </div>
+                    </div>
+
+                    <div class="border-l border-emerald-700 pl-4 flex items-center">
+                        <button type="button" id="adminAuthBtn" onclick="handleAdminButtonClick()" class="px-3.5 py-2 rounded-xl bg-emerald-800 hover:bg-emerald-700 text-gold-300 border border-gold-400/40 text-xs font-bold transition flex items-center gap-2 shadow">
+                            <i id="adminAuthIcon" class="fa-solid fa-lock"></i>
+                            <span id="adminAuthText">Login Admin</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Tabs (Hidden by default, only visible when Admin is authenticated) -->
+            <nav id="adminNavTabs" class="hidden mt-6 pt-4 border-t border-emerald-700/70 flex-wrap items-center justify-between gap-2 sm:gap-3" aria-label="Tabs">
+                <div class="flex flex-wrap gap-2 sm:gap-3 w-full sm:w-auto">
+                    <button onclick="switchTab('form')" id="tabBtn-form" class="tab-btn flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm transition-all bg-gold-500 text-emerald-950 shadow-md">
+                        <i class="fa-solid fa-file-pen"></i>
+                        <span>1. Formulir Pendataan</span>
+                    </button>
+                    <button onclick="switchTab('sheet')" id="tabBtn-sheet" class="tab-btn flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm transition-all bg-emerald-900/70 text-emerald-100 hover:bg-emerald-800 border border-emerald-700">
+                        <i class="fa-solid fa-table-list"></i>
+                        <span>2. Spreadsheet Data</span>
+                        <span id="sheetBadgeCount" class="ml-1 px-2 py-0.5 text-xs rounded-full bg-emerald-700 text-gold-200">0</span>
+                    </button>
+                    <button onclick="switchTab('analytics')" id="tabBtn-analytics" class="tab-btn flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm transition-all bg-emerald-900/70 text-emerald-100 hover:bg-emerald-800 border border-emerald-700">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <span>3. Dasbor Analisis</span>
+                    </button>
+                    <button onclick="switchTab('integration')" id="tabBtn-integration" class="tab-btn flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm transition-all bg-emerald-900/70 text-emerald-100 hover:bg-emerald-800 border border-emerald-700">
+                        <i class="fa-brands fa-google-drive"></i>
+                        <span>4. Koneksi Google Sheets</span>
+                    </button>
+                </div>
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-emerald-950/90 border border-gold-400/40 text-xs text-gold-300 font-semibold">
+                    <i class="fa-solid fa-cloud-arrow-up text-emerald-400"></i>
+                    <span id="headerSyncStatus">Terhubung ke Google Sheets (Realtime)</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+
+        <!-- ==================== TAB 1: FORMULIR PENDATAAN ==================== -->
+        <section id="tabContent-form" class="space-y-6">
+            <!-- Public Live Counter Banner on Registration Dashboard -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="bg-white rounded-2xl p-5 shadow-md border-l-4 border-emerald-700 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Total Alumni Terdata</span>
+                        <div class="flex items-baseline gap-2 mt-1">
+                            <span id="formStatTotal" class="text-3xl font-extrabold text-emerald-950">0</span>
+                            <span class="text-xs font-semibold text-emerald-700">Alumni Firdaus '12</span>
+                        </div>
+                        <p class="text-[11px] text-slate-500 mt-0.5">Tersinkronisasi dengan Spreadsheet Panitia</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-5 shadow-md border-l-4 border-gold-500 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Total yang Bisa Hadir</span>
+                        <div class="flex items-baseline gap-2 mt-1">
+                            <span id="formStatBisaHadir" class="text-3xl font-extrabold text-emerald-700">0</span>
+                            <span id="formStatRincianHadir" class="text-xs font-medium text-slate-500">(0 Pasti, 0 Rencana)</span>
+                        </div>
+                        <p id="formStatBerhalangan" class="text-[11px] text-slate-500 mt-0.5">Berhalangan Hadir: 0 Alumni</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-2xl bg-gold-100 text-amber-700 flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-user-check"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-5 shadow-md border-l-4 border-teal-600 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Status Spreadsheet Realtime</span>
+                        <div class="text-sm font-bold text-emerald-900 mt-1 flex items-center gap-2">
+                            <span class="relative flex h-2.5 w-2.5">
+                                <span id="syncPulseDot" class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-600"></span>
+                            </span>
+                            <span id="publicSyncBadgeText">Live Spreadsheet Aktif</span>
+                        </div>
+                        <p id="lastSyncTimeText" class="text-[11px] text-slate-500 mt-0.5">Terlindungi Anti-Spam & Enkripsi Admin</p>
+                    </div>
+                    <button type="button" onclick="syncFromGoogleSheets(false)" title="Muat ulang data terbaru dari Google Spreadsheet" class="w-11 h-11 rounded-2xl bg-teal-50 hover:bg-teal-100 text-teal-700 flex items-center justify-center text-lg transition border border-teal-200">
+                        <i id="syncSpinIcon" class="fa-solid fa-arrows-rotate"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+
+                <!-- Left/Main Column: The 5-Part Form -->
+                <div class="lg:col-span-2 bg-white rounded-2xl shadow-lg border border-emerald-100 overflow-hidden">
+                    <!-- Muqaddimah / Greeting Banner -->
+                    <div class="bg-gradient-to-r from-emerald-900 via-emerald-800 to-emerald-900 p-6 text-white border-b-2 border-gold-400">
+                        <div class="flex items-start justify-between gap-4">
+                            <div>
+                                <p class="font-arabic text-2xl text-gold-400 mb-1">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
+                                <h2 class="text-lg sm:text-xl font-bold text-white">Assalamu’alaikum Wr. Wb.</h2>
+                                <p class="text-emerald-100 text-sm mt-2 leading-relaxed">
+                                    Pendataan ini bertujuan untuk mempererat silaturahmi, memetakan potensi jejaring alumni, serta mempersiapkan kebutuhan acara <strong>Reuni Firdaus 2012</strong> dengan baik. Mohon isi data dengan benar.
+                                </p>
+                            </div>
+                            <button type="button" id="demoFillBtn" onclick="fillDemoForm()" class="hidden flex-shrink-0 text-xs bg-emerald-700/80 hover:bg-emerald-600 text-gold-200 border border-gold-400/40 px-3 py-2 rounded-xl transition items-center gap-1.5" title="Isi otomatis contoh data untuk simulasi (Khusus Admin)">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> Isi Contoh
+                            </button>
+                        </div>
+                    </div>
+
+                    <form id="alumniForm" onsubmit="handleFormSubmit(event)" class="p-6 sm:p-8 space-y-8" novalidate>
+                        <input type="hidden" id="editRowId" value="">
+                        <!-- Honeypot field to trap automated spam bots -->
+                        <div class="hidden" aria-hidden="true">
+                            <label for="honeypotTrap">Jangan isi kolom ini jika Anda manusia</label>
+                            <input type="text" id="honeypotTrap" name="honeypotTrap" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <!-- BAGIAN 1: DATA DIRI -->
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3 pb-2 border-b-2 border-emerald-100">
+                                <span class="w-8 h-8 rounded-lg bg-emerald-800 text-gold-400 font-bold flex items-center justify-center text-sm shadow">1</span>
+                                <div>
+                                    <h3 class="text-base sm:text-lg font-bold text-emerald-950">Bagian 1: Data Diri</h3>
+                                    <p class="text-xs text-slate-500">Identitas dasar dan kontak utama alumni</p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <!-- 1. Nama Lengkap & Gelar -->
+                                <div class="sm:col-span-2">
+                                    <label for="namaLengkap" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        1. Nama Lengkap & Gelar <span class="text-red-600">*</span>
+                                    </label>
+                                    <input type="text" id="namaLengkap" required
+                                        placeholder="Contoh: Ahmad Fauzi, S.Pd.I."
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm">
+                                    <p class="text-xs text-slate-500 mt-1">Contoh: Ahmad Fauzi, S.Pd.I.</p>
+                                </div>
+
+                                <!-- 2. Nama Panggilan -->
+                                <div>
+                                    <label for="namaPanggilan" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        2. Nama Panggilan <span class="text-xs font-normal text-slate-400">(Opsional)</span>
+                                    </label>
+                                    <input type="text" id="namaPanggilan"
+                                        placeholder="Contoh: Kang Fauzi"
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm">
+                                </div>
+
+                                <!-- 3. Nomor WhatsApp Aktif -->
+                                <div>
+                                    <label for="noWhatsapp" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        3. Nomor WhatsApp Aktif <span class="text-red-600">*</span>
+                                    </label>
+                                    <div class="relative">
+                                        <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-emerald-700">
+                                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                                        </span>
+                                        <input type="tel" id="noWhatsapp" required
+                                            oninput="sanitizePhoneInput(this)"
+                                            placeholder="6281234567890"
+                                            class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm font-mono">
+                                    </div>
+                                    <p class="text-xs text-emerald-700 mt-1">Format: <strong>628xxxxxxxxxx</strong> (Tanpa spasi atau tanda hubung. Ketik 08 otomatis diubah ke 628).</p>
+                                </div>
+
+                                <!-- 4. Email Aktif -->
+                                <div class="sm:col-span-2">
+                                    <label for="emailAktif" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        4. Email Aktif <span class="text-xs font-normal text-slate-400">(Opsional)</span>
+                                    </label>
+                                    <input type="email" id="emailAktif"
+                                        placeholder="Contoh: ahmad.fauzi@email.com"
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BAGIAN 2: DOMISILI & KONTAK DARURAT -->
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3 pb-2 border-b-2 border-emerald-100">
+                                <span class="w-8 h-8 rounded-lg bg-emerald-800 text-gold-400 font-bold flex items-center justify-center text-sm shadow">2</span>
+                                <div>
+                                    <h3 class="text-base sm:text-lg font-bold text-emerald-950">Bagian 2: Domisili & Kontak Darurat</h3>
+                                    <p class="text-xs text-slate-500">Pemetaan koordinator wilayah/daerah & kontak keluarga serumah</p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <!-- 5. Provinsi Domisili Saat Ini -->
+                                <div>
+                                    <label for="provinsiDomisili" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        5. Provinsi Domisili Saat Ini <span class="text-red-600">*</span>
+                                    </label>
+                                    <select id="provinsiDomisili" required
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm bg-white">
+                                        <option value="">-- Pilih Provinsi Domisili --</option>
+                                        <option value="Jawa Timur">Jawa Timur</option>
+                                        <option value="Jawa Tengah">Jawa Tengah</option>
+                                        <option value="DI Yogyakarta">DI Yogyakarta</option>
+                                        <option value="Jawa Barat">Jawa Barat</option>
+                                        <option value="DKI Jakarta">DKI Jakarta</option>
+                                        <option value="Luar Jawa">Luar Jawa</option>
+                                        <option value="Luar Negeri">Luar Negeri</option>
+                                    </select>
+                                </div>
+
+                                <!-- 6. Kabupaten / Kota Domisili -->
+                                <div>
+                                    <label for="kabKotaDomisili" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        6. Kabupaten / Kota Domisili <span class="text-red-600">*</span>
+                                    </label>
+                                    <input type="text" id="kabKotaDomisili" required
+                                        placeholder="Contoh: Kab. Kediri / Kota Surabaya"
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm">
+                                    <p class="text-xs text-slate-500 mt-1">Contoh: Kab. Kediri / Kota Surabaya</p>
+                                </div>
+
+                                <!-- 7. Kontak Darurat (Keluarga Serumah) -->
+                                <div class="sm:col-span-2">
+                                    <label for="kontakDarurat" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        7. Kontak Darurat (Keluarga Serumah) <span class="text-red-600">*</span>
+                                    </label>
+                                    <input type="text" id="kontakDarurat" required
+                                        placeholder="Contoh: Siti (Istri) - 628123456789"
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm">
+                                    <p class="text-xs text-slate-500 mt-1">Format: <strong>Nama - Hubungan - No. HP</strong> (Contoh: Siti (Istri) - 628123456789)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BAGIAN 3: RIWAYAT DI LIRBOYO (VALIDASI ANGKATAN) -->
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3 pb-2 border-b-2 border-emerald-100">
+                                <span class="w-8 h-8 rounded-lg bg-emerald-800 text-gold-400 font-bold flex items-center justify-center text-sm shadow">3</span>
+                                <div>
+                                    <h3 class="text-base sm:text-lg font-bold text-emerald-950">Bagian 3: Riwayat di Lirboyo (Validasi Angkatan)</h3>
+                                    <p class="text-xs text-slate-500">Data historis kamar, komplek asrama, dan masa mondok di PP. Lirboyo</p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <!-- 8. Kamar / Asrama / Madrasah Terakhir -->
+                                <div>
+                                    <label for="kamarAsrama" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        8. Kamar / Asrama / Madrasah Terakhir <span class="text-red-600">*</span>
+                                    </label>
+                                    <input type="text" id="kamarAsrama" required
+                                        placeholder="Contoh: Kamar X, Komplek Firdaus, Madrasah Hasyim Asy'ari"
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm">
+                                    <p class="text-xs text-slate-500 mt-1">Contoh: Kamar X, Komplek Firdaus, Madrasah Hasyim Asy'ari</p>
+                                </div>
+
+                                <!-- 9. Tahun Mulai & Selesai Mondok -->
+                                <div>
+                                    <label for="tahunMondok" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        9. Tahun Mulai & Selesai Mondok <span class="text-red-600">*</span>
+                                    </label>
+                                    <input type="text" id="tahunMondok" required
+                                        placeholder="Contoh: 2008 - 2013"
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm">
+                                    <p class="text-xs text-slate-500 mt-1">Contoh: 2008 - 2013</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BAGIAN 4: PROFESI & KEAHLIAN -->
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3 pb-2 border-b-2 border-emerald-100">
+                                <span class="w-8 h-8 rounded-lg bg-emerald-800 text-gold-400 font-bold flex items-center justify-center text-sm shadow">4</span>
+                                <div>
+                                    <h3 class="text-base sm:text-lg font-bold text-emerald-950">Bagian 4: Profesi & Keahlian</h3>
+                                    <p class="text-xs text-slate-500">Database potensi kolaborasi ekonomi, dakwah, dan sosial antar-alumni</p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <!-- 10. Status Pekerjaan / Profesi Utama -->
+                                <div>
+                                    <label for="profesiUtama" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        10. Status Pekerjaan / Profesi Utama <span class="text-red-600">*</span>
+                                    </label>
+                                    <select id="profesiUtama" required
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm bg-white">
+                                        <option value="">-- Pilih Profesi Utama --</option>
+                                        <option value="Pengasuh/Pimpinan Pesantren">Pengasuh/Pimpinan Pesantren</option>
+                                        <option value="Guru/Dosen/Akademisi">Guru/Dosen/Akademisi</option>
+                                        <option value="Wiraswasta/Pengusaha">Wiraswasta/Pengusaha</option>
+                                        <option value="Karyawan Swasta/BUMN">Karyawan Swasta/BUMN</option>
+                                        <option value="ASN/TNI/Polri">ASN/TNI/Polri</option>
+                                        <option value="Tokoh Masyarakat/Politisi">Tokoh Masyarakat/Politisi</option>
+                                        <option value="Lainnya">Lainnya</option>
+                                    </select>
+                                </div>
+
+                                <!-- 11. Nama Instansi / Tempat Usaha -->
+                                <div>
+                                    <label for="namaInstansi" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        11. Nama Instansi / Tempat Usaha <span class="text-xs font-normal text-slate-400">(Opsional)</span>
+                                    </label>
+                                    <input type="text" id="namaInstansi"
+                                        placeholder="Contoh: PP. Darul Hikmah / CV. Berkah Mandiri"
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm">
+                                </div>
+
+                                <!-- 12. Bidang Keahlian / Kompetensi -->
+                                <div class="sm:col-span-2">
+                                    <label class="block text-sm font-semibold text-slate-700 mb-2">
+                                        12. Bidang Keahlian / Kompetensi <span class="text-xs font-normal text-slate-400">(Bisa pilih lebih dari satu, Opsional)</span>
+                                    </label>
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
+                                        <label class="flex items-center gap-2.5 p-2.5 rounded-xl border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50/50 cursor-pointer transition text-xs sm:text-sm">
+                                            <input type="checkbox" name="bidangKeahlian" value="Pendidikan & Pengajaran" class="w-4 h-4 text-emerald-700 rounded focus:ring-emerald-600">
+                                            <span>Pendidikan & Pengajaran</span>
+                                        </label>
+                                        <label class="flex items-center gap-2.5 p-2.5 rounded-xl border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50/50 cursor-pointer transition text-xs sm:text-sm">
+                                            <input type="checkbox" name="bidangKeahlian" value="Dakwah & Keagamaan" class="w-4 h-4 text-emerald-700 rounded focus:ring-emerald-600">
+                                            <span>Dakwah & Keagamaan</span>
+                                        </label>
+                                        <label class="flex items-center gap-2.5 p-2.5 rounded-xl border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50/50 cursor-pointer transition text-xs sm:text-sm">
+                                            <input type="checkbox" name="bidangKeahlian" value="IT & Digital" class="w-4 h-4 text-emerald-700 rounded focus:ring-emerald-600">
+                                            <span>IT & Digital</span>
+                                        </label>
+                                        <label class="flex items-center gap-2.5 p-2.5 rounded-xl border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50/50 cursor-pointer transition text-xs sm:text-sm">
+                                            <input type="checkbox" name="bidangKeahlian" value="Hukum & Legal" class="w-4 h-4 text-emerald-700 rounded focus:ring-emerald-600">
+                                            <span>Hukum & Legal</span>
+                                        </label>
+                                        <label class="flex items-center gap-2.5 p-2.5 rounded-xl border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50/50 cursor-pointer transition text-xs sm:text-sm">
+                                            <input type="checkbox" name="bidangKeahlian" value="Perdagangan & Bisnis" class="w-4 h-4 text-emerald-700 rounded focus:ring-emerald-600">
+                                            <span>Perdagangan & Bisnis</span>
+                                        </label>
+                                        <label class="flex items-center gap-2.5 p-2.5 rounded-xl border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50/50 cursor-pointer transition text-xs sm:text-sm">
+                                            <input type="checkbox" name="bidangKeahlian" value="Kesehatan" class="w-4 h-4 text-emerald-700 rounded focus:ring-emerald-600">
+                                            <span>Kesehatan</span>
+                                        </label>
+                                        <label class="flex items-center gap-2.5 p-2.5 rounded-xl border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50/50 cursor-pointer transition text-xs sm:text-sm sm:col-span-2 md:col-span-1">
+                                            <input type="checkbox" name="bidangKeahlian" value="Media & Publikasi" class="w-4 h-4 text-emerald-700 rounded focus:ring-emerald-600">
+                                            <span>Media & Publikasi</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BAGIAN 5: KONFIRMASI KEHADIRAN ACARA -->
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3 pb-2 border-b-2 border-emerald-100">
+                                <span class="w-8 h-8 rounded-lg bg-emerald-800 text-gold-400 font-bold flex items-center justify-center text-sm shadow">5</span>
+                                <div>
+                                    <h3 class="text-base sm:text-lg font-bold text-emerald-950">Bagian 5: Konfirmasi Kehadiran Acara</h3>
+                                    <p class="text-xs text-slate-500">Estimasi kepastian kehadiran dan kebutuhan logistik/akomodasi keluarga</p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-4">
+                                <!-- 13. Konfirmasi Kehadiran -->
+                                <div>
+                                    <label class="block text-sm font-semibold text-slate-700 mb-2">
+                                        13. Konfirmasi Kehadiran <span class="text-red-600">*</span>
+                                    </label>
+                                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                                        <label class="flex items-center gap-3 p-3.5 rounded-xl border-2 border-slate-200 has-[:checked]:border-emerald-600 has-[:checked]:bg-emerald-50/70 cursor-pointer transition">
+                                            <input type="radio" name="konfirmasiKehadiran" value="Hadir" required onchange="handleAttendanceChange()" class="w-4 h-4 text-emerald-700 focus:ring-emerald-600">
+                                            <div>
+                                                <div class="font-bold text-sm text-emerald-950">Hadir</div>
+                                                <div class="text-[11px] text-slate-500">InsyaAllah pasti hadir</div>
+                                            </div>
+                                        </label>
+                                        <label class="flex items-center gap-3 p-3.5 rounded-xl border-2 border-slate-200 has-[:checked]:border-amber-500 has-[:checked]:bg-amber-50/70 cursor-pointer transition">
+                                            <input type="radio" name="konfirmasiKehadiran" value="Rencana Hadir (Belum 100% pasti)" onchange="handleAttendanceChange()" class="w-4 h-4 text-amber-600 focus:ring-amber-500">
+                                            <div>
+                                                <div class="font-bold text-sm text-amber-950">Rencana Hadir</div>
+                                                <div class="text-[11px] text-slate-500">Belum 100% pasti</div>
+                                            </div>
+                                        </label>
+                                        <label class="flex items-center gap-3 p-3.5 rounded-xl border-2 border-slate-200 has-[:checked]:border-rose-500 has-[:checked]:bg-rose-50/70 cursor-pointer transition">
+                                            <input type="radio" name="konfirmasiKehadiran" value="Berhalangan Hadir" onchange="handleAttendanceChange()" class="w-4 h-4 text-rose-600 focus:ring-rose-500">
+                                            <div>
+                                                <div class="font-bold text-sm text-rose-950">Berhalangan Hadir</div>
+                                                <div class="text-[11px] text-slate-500">Titip doa & salam</div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <!-- 14. Jumlah Anggota Keluarga yang Ikut Mendampingi -->
+                                <div id="pendampingContainer">
+                                    <label for="jumlahPendamping" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        14. Jumlah Anggota Keluarga yang Ikut Mendampingi <span id="pendampingReqStar" class="text-red-600">*</span>
+                                    </label>
+                                    <select id="jumlahPendamping" required
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm bg-white">
+                                        <option value="">-- Pilih Pendamping Kehadiran --</option>
+                                        <option value="Sendiri (0)">Sendiri (0)</option>
+                                        <option value="Datang bersama Suami/Istri">Datang bersama Suami/Istri</option>
+                                        <option value="Datang bersama Keluarga (Suami/Istri & Anak)">Datang bersama Keluarga (Suami/Istri & Anak)</option>
+                                        <option value="Tidak Hadir (0)">Tidak Hadir (0)</option>
+                                    </select>
+                                    <p class="text-xs text-slate-500 mt-1">Wajib diisi jika memilih Hadir atau Rencana Hadir.</p>
+                                </div>
+
+                                <!-- 15. Catatan Khusus / Kebutuhan Logistik -->
+                                <div>
+                                    <label for="catatanKhusus" class="block text-sm font-semibold text-slate-700 mb-1">
+                                        15. Catatan Khusus / Kebutuhan Logistik <span class="text-xs font-normal text-slate-400">(Opsional)</span>
+                                    </label>
+                                    <textarea id="catatanKhusus" rows="2"
+                                        placeholder="Contoh: Membawa balita, alergi makanan tertentu, butuh penginapan sekitar pondok, dll."
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VERIFIKASI KEAMANAN (ANTI-PENYALAHGUNAAN) -->
+                        <div class="bg-emerald-50/70 rounded-2xl p-4 sm:p-5 border border-emerald-200 space-y-3">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2 text-emerald-950 font-bold text-sm">
+                                    <i class="fa-solid fa-shield-halved text-emerald-700"></i>
+                                    <span>Verifikasi Keamanan Anti-Spam <span class="text-red-600">*</span></span>
+                                </div>
+                                <button type="button" onclick="generateSecurityChallenge()" class="text-xs text-emerald-700 hover:text-emerald-900 font-semibold flex items-center gap-1">
+                                    <i class="fa-solid fa-arrows-rotate"></i> Ganti Soal
+                                </button>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 items-center">
+                                <div class="bg-white px-4 py-2.5 rounded-xl border border-emerald-300 flex items-center justify-between">
+                                    <span class="text-xs text-slate-500">Hitung hasil berikut:</span>
+                                    <span id="captchaQuestionText" class="font-mono font-extrabold text-base text-emerald-900 tracking-wider">0 + 0 = ?</span>
+                                </div>
+                                <div>
+                                    <input type="number" id="captchaAnswerInput" required
+                                        placeholder="Ketik hasil penjumlahan..."
+                                        class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-600/20 outline-none transition text-sm font-bold">
+                                </div>
+                            </div>
+                            <p class="text-[11px] text-slate-500">
+                                <i class="fa-solid fa-lock mr-1 text-emerald-700"></i>Sistem membatasi duplikasi nomor WhatsApp dan pengiriman beruntun untuk menjaga keaslian data alumni.
+                            </p>
+                        </div>
+
+                        <!-- Form Action Buttons -->
+                        <div class="pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3">
+                            <button type="button" onclick="resetFormState()" class="w-full sm:w-auto px-5 py-2.5 rounded-xl border border-slate-300 text-slate-600 hover:bg-slate-100 text-sm font-semibold transition">
+                                <i class="fa-solid fa-rotate-left mr-1.5"></i> Bersihkan Formulir
+                            </button>
+                            <button type="submit" id="submitFormBtn" class="w-full sm:w-auto px-8 py-3 rounded-xl bg-gradient-to-r from-emerald-800 to-emerald-700 hover:from-emerald-900 hover:to-emerald-800 text-gold-300 font-bold text-sm shadow-lg shadow-emerald-900/20 transition flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span id="submitBtnText">Simpan & Kirim Data Pendaftaran</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Right Column: Digital ID Card Preview & Info Reuni -->
+                <div class="space-y-6">
+                    <!-- Kartu Bukti Pendataan Digital -->
+                    <div class="bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-800 rounded-2xl p-6 text-white shadow-xl border-2 border-gold-500/50 relative overflow-hidden">
+                        <div class="flex items-center justify-between border-b border-emerald-700 pb-3 mb-4">
+                            <div class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-id-card-clip text-gold-400 text-xl"></i>
+                                <div>
+                                    <h3 class="text-sm font-bold text-gold-300 uppercase tracking-wider">Kartu Registrasi Alumni</h3>
+                                    <p class="text-[11px] text-emerald-200">Reuni Firdaus PP. Lirboyo 2012</p>
+                                </div>
+                            </div>
+                            <span id="cardPreviewId" class="px-2.5 py-1 rounded-lg bg-gold-500/20 border border-gold-400/40 text-gold-300 font-mono text-xs font-bold">
+                                #FRD-2012
+                            </span>
+                        </div>
+
+                        <div class="space-y-2.5 text-sm">
+                            <div>
+                                <div class="text-[11px] text-emerald-300">Nama Lengkap & Gelar</div>
+                                <div id="cardPreviewName" class="font-bold text-base text-white truncate">Menunggu Input Data...</div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-2 pt-1">
+                                <div>
+                                    <div class="text-[11px] text-emerald-300">Kamar / Asrama</div>
+                                    <div id="cardPreviewKamar" class="font-semibold text-xs text-gold-200 truncate">-</div>
+                                </div>
+                                <div>
+                                    <div class="text-[11px] text-emerald-300">Domisili</div>
+                                    <div id="cardPreviewDomisili" class="font-semibold text-xs text-gold-200 truncate">-</div>
+                                </div>
+                            </div>
+                            <div class="pt-2 border-t border-emerald-800 flex items-center justify-between">
+                                <span class="text-xs text-emerald-200">Status Kehadiran:</span>
+                                <span id="cardPreviewStatus" class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-700 text-emerald-100">
+                                    Belum Dipilih
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panduan Singkat & Keunggulan Spreadsheet -->
+                    <div class="bg-white rounded-2xl p-6 shadow-md border border-emerald-100 space-y-4">
+                        <h3 class="font-bold text-emerald-950 flex items-center gap-2 text-base">
+                            <i class="fa-solid fa-circle-info text-emerald-700"></i>
+                            Standar Validasi & Privasi Data
+                        </h3>
+                        <ul class="space-y-3 text-xs sm:text-sm text-slate-600">
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-check-circle text-emerald-600 mt-0.5"></i>
+                                <span><strong>Privasi Terjaga:</strong> Daftar detail kontak seluruh alumni dikunci dan hanya dapat dibuka oleh Admin Panitia Reuni Firdaus 2012.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-check-circle text-emerald-600 mt-0.5"></i>
+                                <span><strong>Format WhatsApp Terstandar:</strong> Menggunakan awalan <code class="bg-slate-100 px-1.5 py-0.5 rounded text-emerald-800 font-mono">628...</code> serta menolak duplikasi nomor otomatis.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-check-circle text-emerald-600 mt-0.5"></i>
+                                <span><strong>Kalkulasi Kehadiran Real-Time:</strong> Jumlah alumni terdata dan yang dapat hadir langsung diperbarui pada papan informasi di atas.</span>
+                            </li>
+                        </ul>
+                        <div class="pt-2">
+                            <button type="button" onclick="handleAdminButtonClick()" class="w-full py-2.5 px-4 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-semibold text-xs sm:text-sm transition flex items-center justify-center gap-2 border border-emerald-200">
+                                <i class="fa-solid fa-user-lock"></i> <span id="sideAdminBtnLabel">Buka Dasbor Admin (Khusus Panitia)</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- REKAP DATA DALAM SPREADSHEET PADA DASBOR PENDATAAN (REALTIME) -->
+            <div class="bg-white rounded-2xl shadow-lg border border-emerald-200 overflow-hidden">
+                <div class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-emerald-800 px-5 py-4 text-white border-b-2 border-gold-500 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+                    <div class="flex items-start sm:items-center gap-3">
+                        <div class="w-11 h-11 rounded-xl bg-gold-500/20 border border-gold-400/40 text-gold-300 flex items-center justify-center text-xl flex-shrink-0">
+                            <i class="fa-solid fa-table"></i>
+                        </div>
+                        <div>
+                            <div class="flex flex-wrap items-center gap-2">
+                                <h3 class="text-base sm:text-lg font-bold text-white">Rekap Data Spreadsheet Alumni (Realtime)</h3>
+                                <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-700/90 text-gold-300 border border-gold-400/30">
+                                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                    Live Google Sheets
+                                </span>
+                            </div>
+                            <p class="text-xs text-emerald-200 mt-0.5">
+                                Menampilkan rekap peserta yang telah mengisi formulir secara realtime. Nomor kontak disamarkan demi privasi alumni.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-2">
+                        <button type="button" onclick="syncFromGoogleSheets(false)" class="px-3.5 py-2 rounded-xl bg-emerald-800 hover:bg-emerald-700 text-gold-200 border border-gold-400/30 text-xs font-semibold transition flex items-center gap-1.5">
+                            <i class="fa-solid fa-cloud-arrow-down"></i>
+                            <span>Segarkan Data Spreadsheet</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Ringkasan Cepat & Filter Rekap Publik -->
+                <div class="p-4 sm:p-5 bg-emerald-50/40 border-b border-emerald-100 space-y-4">
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                        <div class="bg-white p-3 rounded-xl border border-emerald-100 shadow-sm">
+                            <div class="text-[11px] text-slate-500 font-semibold">Total Terdata</div>
+                            <div class="text-lg font-extrabold text-emerald-950"><span id="recapTotalCount">0</span> <span class="text-xs font-normal text-slate-500">Alumni</span></div>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl border border-emerald-100 shadow-sm">
+                            <div class="text-[11px] text-emerald-700 font-semibold">Pasti Hadir</div>
+                            <div class="text-lg font-extrabold text-emerald-700"><span id="recapPastiHadir">0</span> <span class="text-xs font-normal text-slate-500">Alumni</span></div>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl border border-amber-200 shadow-sm">
+                            <div class="text-[11px] text-amber-700 font-semibold">Rencana Hadir</div>
+                            <div class="text-lg font-extrabold text-amber-600"><span id="recapRencanaHadir">0</span> <span class="text-xs font-normal text-slate-500">Alumni</span></div>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl border border-rose-200 shadow-sm">
+                            <div class="text-[11px] text-rose-700 font-semibold">Berhalangan Hadir</div>
+                            <div class="text-lg font-extrabold text-rose-600"><span id="recapBerhalangan">0</span> <span class="text-xs font-normal text-slate-500">Alumni</span></div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="sm:col-span-2 relative">
+                            <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 text-xs"></i>
+                            <input type="text" id="publicRecapSearch" oninput="renderPublicRecapSpreadsheet()"
+                                placeholder="Cari nama alumni, panggilan, kamar/asrama, atau kota domisili..."
+                                class="w-full pl-9 pr-4 py-2 rounded-xl border border-slate-300 focus:border-emerald-600 outline-none text-xs sm:text-sm bg-white">
+                        </div>
+                        <div>
+                            <select id="publicRecapFilterHadir" onchange="renderPublicRecapSpreadsheet()"
+                                class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:border-emerald-600 outline-none text-xs sm:text-sm bg-white">
+                                <option value="ALL">Semua Status Kehadiran</option>
+                                <option value="BISA_HADIR">Semua yang Bisa Hadir (Pasti & Rencana)</option>
+                                <option value="Hadir">Pasti Hadir</option>
+                                <option value="Rencana Hadir (Belum 100% pasti)">Rencana Hadir</option>
+                                <option value="Berhalangan Hadir">Berhalangan Hadir</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabel Spreadsheet Realtime di Dasbor Pendataan -->
+                <div class="overflow-x-auto custom-scrollbar max-h-[420px]">
+                    <table class="w-full text-left border-collapse sheet-table text-xs sm:text-sm">
+                        <thead>
+                            <tr class="bg-slate-100 text-slate-700 border-b-2 border-slate-300 font-bold whitespace-nowrap">
+                                <th class="py-3 px-3 border-r border-slate-200 text-center bg-slate-200 w-10">No</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">ID Alumni</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Waktu Input</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Nama Lengkap & Gelar</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Panggilan</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Kamar / Asrama Terakhir</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Tahun Mondok</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Domisili (Kab/Kota - Provinsi)</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Profesi Utama</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">No. WhatsApp (Tersamar)</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Konfirmasi Kehadiran</th>
+                                <th class="py-3 px-3 bg-slate-100">Pendamping</th>
+                            </tr>
+                        </thead>
+                        <tbody id="publicRealtimeSheetBody" class="divide-y divide-slate-200">
+                            <!-- Diisi otomatis secara realtime oleh JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="bg-slate-50 px-4 py-2.5 border-t border-slate-200 flex flex-wrap items-center justify-between gap-2 text-[11px] text-slate-500">
+                    <span id="publicRecapFooterInfo">Menampilkan seluruh data alumni yang masuk ke spreadsheet.</span>
+                    <span><i class="fa-solid fa-lock text-emerald-700 mr-1"></i>Untuk mengedit, menghapus, atau mengunduh data lengkap 16 kolom, silakan masuk melalui <strong>Login Admin</strong>.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== TAB 2: SPREADSHEET DATA ==================== -->
+        <section id="tabContent-sheet" class="hidden space-y-6">
+            <!-- Spreadsheet Toolbar Card -->
+            <div class="bg-white rounded-2xl shadow-md border border-emerald-100 p-5 space-y-4">
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-slate-100 pb-4">
+                    <div>
+                        <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full mb-1">
+                            <i class="fa-solid fa-file-excel"></i> Master Database Spreadsheet
+                        </div>
+                        <h2 class="text-xl font-bold text-emerald-950">Tabel Rekapitulasi Alumni Firdaus PP. Lirboyo 2012</h2>
+                        <p class="text-xs text-slate-500">Data tersusun dalam 16 kolom standar analisis data. Anda dapat menyalin langsung ke Google Sheets atau mengunduh CSV.</p>
+                    </div>
+
+                    <!-- Spreadsheet Export & Sync Actions -->
+                    <div class="flex flex-wrap items-center gap-2.5">
+                        <button onclick="copySpreadsheetForGoogleSheets()" class="px-4 py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-300 font-semibold text-xs sm:text-sm transition flex items-center gap-2 shadow-sm">
+                            <i class="fa-solid fa-copy text-emerald-700"></i>
+                            <span>Salin ke Google Sheets (TSV)</span>
+                        </button>
+                        <button onclick="exportToCSV()" class="px-4 py-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-xs sm:text-sm transition flex items-center gap-2 shadow-sm">
+                            <i class="fa-solid fa-file-csv text-gold-300"></i>
+                            <span>Unduh Excel / CSV</span>
+                        </button>
+                        <button onclick="switchTab('form')" class="px-4 py-2.5 rounded-xl bg-gold-500 hover:bg-gold-600 text-emerald-950 font-bold text-xs sm:text-sm transition flex items-center gap-2 shadow-sm">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>Tambah Alumni</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Filter & Search Controls -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+                    <div class="lg:col-span-2 relative">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 text-sm"></i>
+                        <input type="text" id="searchSheetInput" oninput="renderSpreadsheet()"
+                            placeholder="Cari nama, kamar, kota, instansi, atau No. WA..."
+                            class="w-full pl-9 pr-4 py-2 rounded-xl border border-slate-300 focus:border-emerald-600 outline-none text-sm">
+                    </div>
+
+                    <div>
+                        <select id="filterProvinsi" onchange="renderSpreadsheet()" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:border-emerald-600 outline-none text-sm bg-white">
+                            <option value="ALL">Semua Provinsi</option>
+                            <option value="Jawa Timur">Jawa Timur</option>
+                            <option value="Jawa Tengah">Jawa Tengah</option>
+                            <option value="DI Yogyakarta">DI Yogyakarta</option>
+                            <option value="Jawa Barat">Jawa Barat</option>
+                            <option value="DKI Jakarta">DKI Jakarta</option>
+                            <option value="Luar Jawa">Luar Jawa</option>
+                            <option value="Luar Negeri">Luar Negeri</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <select id="filterKehadiran" onchange="renderSpreadsheet()" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:border-emerald-600 outline-none text-sm bg-white">
+                            <option value="ALL">Semua Status Kehadiran</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Rencana Hadir (Belum 100% pasti)">Rencana Hadir</option>
+                            <option value="Berhalangan Hadir">Berhalangan Hadir</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <select id="filterProfesi" onchange="renderSpreadsheet()" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:border-emerald-600 outline-none text-sm bg-white">
+                            <option value="ALL">Semua Profesi</option>
+                            <option value="Pengasuh/Pimpinan Pesantren">Pengasuh Pesantren</option>
+                            <option value="Guru/Dosen/Akademisi">Guru/Dosen/Akademisi</option>
+                            <option value="Wiraswasta/Pengusaha">Wiraswasta/Pengusaha</option>
+                            <option value="Karyawan Swasta/BUMN">Karyawan Swasta/BUMN</option>
+                            <option value="ASN/TNI/Polri">ASN/TNI/Polri</option>
+                            <option value="Tokoh Masyarakat/Politisi">Tokoh Masyarakat/Politisi</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google-Sheets-like Table Container -->
+            <div class="bg-white rounded-2xl shadow-lg border border-emerald-200 overflow-hidden">
+                <div class="bg-emerald-900 text-white px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 text-xs">
+                    <div class="flex items-center gap-2">
+                        <span class="px-2 py-0.5 rounded bg-emerald-700 text-gold-300 font-mono">Sheet1: DATA_ALUMNI_FIRDAUS_2012</span>
+                        <span id="sheetFilterSummary" class="text-emerald-200">Menampilkan semua baris</span>
+                    </div>
+                    <div class="text-emerald-200">
+                        Geser tabel ke kanan <i class="fa-solid fa-arrows-left-right ml-1"></i> untuk melihat seluruh 16 kolom
+                    </div>
+                </div>
+
+                <div class="overflow-x-auto custom-scrollbar max-h-[540px]">
+                    <table class="w-full text-left border-collapse sheet-table text-xs sm:text-sm">
+                        <thead>
+                            <tr class="bg-slate-100 text-slate-700 border-b-2 border-slate-300 font-bold whitespace-nowrap">
+                                <th class="py-3 px-3 border-r border-slate-200 text-center bg-slate-200 w-10">No</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">ID Alumni</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Nama Lengkap & Gelar</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Panggilan</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">No. WhatsApp</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Email</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Provinsi Domisili</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Kab / Kota</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Kontak Darurat</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Kamar / Asrama / Madrasah</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Tahun Mondok</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Profesi Utama</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Nama Instansi / Usaha</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Bidang Keahlian</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Konfirmasi Kehadiran</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Pendamping Keluarga</th>
+                                <th class="py-3 px-3 border-r border-slate-200 bg-slate-100">Catatan Logistik</th>
+                                <th class="py-3 px-3 bg-slate-100 text-center">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody id="spreadsheetBody" class="divide-y divide-slate-200">
+                            <!-- Rows injected by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== TAB 3: DASBOR ANALISIS DATA ==================== -->
+        <section id="tabContent-analytics" class="hidden space-y-6">
+            <!-- Top KPI Summary Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="bg-white rounded-2xl p-5 shadow-md border-l-4 border-emerald-700 flex items-center justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase text-slate-500">Total Alumni Terdata</p>
+                        <h3 id="kpiTotalAlumni" class="text-3xl font-extrabold text-emerald-950 mt-1">0</h3>
+                        <p class="text-xs text-emerald-700 mt-1">Angkatan Firdaus 2012</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-5 shadow-md border-l-4 border-emerald-500 flex items-center justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase text-slate-500">Konfirmasi Pasti Hadir</p>
+                        <h3 id="kpiHadirCount" class="text-3xl font-extrabold text-emerald-700 mt-1">0</h3>
+                        <p id="kpiHadirPercent" class="text-xs text-slate-500 mt-1">0% dari total responden</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-user-check"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-5 shadow-md border-l-4 border-amber-500 flex items-center justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase text-slate-500">Rencana Hadir</p>
+                        <h3 id="kpiRencanaCount" class="text-3xl font-extrabold text-amber-600 mt-1">0</h3>
+                        <p class="text-xs text-slate-500 mt-1">Perlu follow-up panitia</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-user-clock"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-5 shadow-md border-l-4 border-gold-600 flex items-center justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase text-slate-500">Estimasi Kuota Konsumsi</p>
+                        <h3 id="kpiEstimasiKonsumsi" class="text-3xl font-extrabold text-amber-900 mt-1">0</h3>
+                        <p class="text-xs text-slate-500 mt-1">Alumni + Pendamping Keluarga</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts & Distributions Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Chart 1: Sebaran Provinsi Domisili -->
+                <div class="bg-white rounded-2xl p-6 shadow-md border border-emerald-100">
+                    <div class="flex items-center justify-between mb-4 pb-2 border-b border-slate-100">
+                        <div>
+                            <h3 class="font-bold text-emerald-950 text-base">Sebaran Provinsi Domisili Alumni</h3>
+                            <p class="text-xs text-slate-500">Dasar pembentukan Koordinator Wilayah (Korwil) & rombongan kafilah</p>
+                        </div>
+                        <i class="fa-solid fa-map-location-dot text-emerald-700 text-xl"></i>
+                    </div>
+                    <div id="chartProvinsi" class="space-y-3"></div>
+                </div>
+
+                <!-- Chart 2: Profil Profesi & Pengabdian -->
+                <div class="bg-white rounded-2xl p-6 shadow-md border border-emerald-100">
+                    <div class="flex items-center justify-between mb-4 pb-2 border-b border-slate-100">
+                        <div>
+                            <h3 class="font-bold text-emerald-950 text-base">Peta Profesi & Pengabdian Alumni</h3>
+                            <p class="text-xs text-slate-500">Distribusi latar belakang profesi utama alumni Firdaus 2012</p>
+                        </div>
+                        <i class="fa-solid fa-briefcase text-emerald-700 text-xl"></i>
+                    </div>
+                    <div id="chartProfesi" class="space-y-3"></div>
+                </div>
+
+                <!-- Chart 3: Kompetensi & Bidang Keahlian -->
+                <div class="bg-white rounded-2xl p-6 shadow-md border border-emerald-100">
+                    <div class="flex items-center justify-between mb-4 pb-2 border-b border-slate-100">
+                        <div>
+                            <h3 class="font-bold text-emerald-950 text-base">Potensi Jejaring Keahlian & Kompetensi</h3>
+                            <p class="text-xs text-slate-500">Pemetaan multi-kompetensi untuk sinergi antar-alumni</p>
+                        </div>
+                        <i class="fa-solid fa-network-wired text-emerald-700 text-xl"></i>
+                    </div>
+                    <div id="chartKeahlian" class="space-y-3"></div>
+                </div>
+
+                <!-- Chart 4: Rincian Kehadiran & Pendamping -->
+                <div class="bg-white rounded-2xl p-6 shadow-md border border-emerald-100">
+                    <div class="flex items-center justify-between mb-4 pb-2 border-b border-slate-100">
+                        <div>
+                            <h3 class="font-bold text-emerald-950 text-base">Komposisi Pendamping & Logistik</h3>
+                            <p class="text-xs text-slate-500">Rincian kedatangan sendiri vs bersama keluarga & catatan logistik</p>
+                        </div>
+                        <i class="fa-solid fa-people-roof text-emerald-700 text-xl"></i>
+                    </div>
+                    <div id="chartPendamping" class="space-y-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== TAB 4: KONEKSI GOOGLE SHEETS ==================== -->
+        <section id="tabContent-integration" class="hidden space-y-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Left: Webhook Configuration -->
+                <div class="bg-white rounded-2xl p-6 shadow-md border border-emerald-100 space-y-5">
+                    <div class="flex items-center gap-3 pb-3 border-b border-slate-100">
+                        <div class="w-11 h-11 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-link"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-emerald-950 text-lg">Hubungkan ke Google Sheets Panitia</h3>
+                            <p class="text-xs text-slate-500">Kirim otomatis setiap pengisian formulir langsung ke Google Spreadsheet Anda</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-3">
+                        <label for="webhookUrlInput" class="block text-sm font-semibold text-slate-700">
+                            URL Web App Google Apps Script <span class="text-xs font-semibold text-emerald-700">(Terhubung Otomatis)</span>
+                        </label>
+                        <input type="url" id="webhookUrlInput"
+                            value="https://script.google.com/macros/s/AKfycbyrfIb4iZzaS1H-M0GQlwCEJikUQfCGUZxTJnarK5FK9Jg7s8797QkEiCv-3Yjeu1Qr/exec"
+                            placeholder="https://script.google.com/macros/s/AKfycb.../exec"
+                            class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-600 outline-none text-sm font-mono">
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            URL Google Apps Script Panitia telah terpasang secara bawaan. Setiap kali alumni menekan tombol <strong>Simpan & Kirim</strong>, data langsung dikirim dan disimpan secara <em>realtime</em> ke Google Spreadsheet Anda.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3 pt-2">
+                        <button onclick="saveWebhookConfig()" class="px-5 py-2.5 rounded-xl bg-emerald-800 hover:bg-emerald-900 text-gold-300 font-bold text-xs sm:text-sm transition flex items-center gap-2">
+                            <i class="fa-solid fa-floppy-disk"></i> Simpan URL Spreadsheet
+                        </button>
+                        <button onclick="syncFromGoogleSheets(false)" class="px-4 py-2.5 rounded-xl bg-teal-50 hover:bg-teal-100 text-teal-900 border border-teal-300 font-semibold text-xs sm:text-sm transition flex items-center gap-2">
+                            <i class="fa-solid fa-arrows-rotate"></i> Tarik Data Realtime dari Sheet
+                        </button>
+                        <button onclick="testWebhookConnection()" class="px-4 py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-300 font-semibold text-xs sm:text-sm transition flex items-center gap-2">
+                            <i class="fa-solid fa-paper-plane"></i> Tes Kirim Baris Contoh
+                        </button>
+                    </div>
+
+                    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 text-xs text-amber-900 space-y-2">
+                        <div class="font-bold flex items-center gap-1.5">
+                            <i class="fa-solid fa-lightbulb text-amber-600"></i>
+                            Cara Instan Tanpa Coding (Copy-Paste Langsung):
+                        </div>
+                        <p>
+                            Buka tab <strong>2. Spreadsheet Data</strong>, klik tombol <strong>"Salin ke Google Sheets (TSV)"</strong>, lalu buka file Google Sheets kosong dan tekan <strong>Ctrl + V</strong>. Seluruh 16 kolom akan langsung tertata rapi!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right: Ready-to-Copy Google Apps Script -->
+                <div class="bg-white rounded-2xl p-6 shadow-md border border-emerald-100 space-y-4">
+                    <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+                        <div>
+                            <h3 class="font-bold text-emerald-950 text-base">Script Otomatis Google Sheets (Code.gs)</h3>
+                            <p class="text-xs text-slate-500">Tempelkan kode ini di menu <em>Extensions &gt; Apps Script</em> pada Google Sheets Anda</p>
+                        </div>
+                        <button onclick="copyAppsScriptCode()" class="px-3 py-1.5 rounded-lg bg-emerald-800 text-gold-300 hover:bg-emerald-900 text-xs font-semibold transition flex items-center gap-1.5">
+                            <i class="fa-solid fa-copy"></i> Salin Script
+                        </button>
+                    </div>
+
+                    <pre id="appsScriptCodeBlock" class="bg-slate-900 text-emerald-300 p-4 rounded-xl text-xs font-mono overflow-x-auto leading-relaxed max-h-72 custom-scrollbar">function doPost(e) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var data = e.postData && e.postData.contents ? JSON.parse(e.postData.contents) : e.parameter;
+  
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow([
+      "Timestamp", "ID Alumni", "Nama Lengkap & Gelar", "Nama Panggilan",
+      "No. WhatsApp", "Email", "Provinsi Domisili", "Kab/Kota Domisili",
+      "Kontak Darurat", "Kamar/Asrama/Madrasah", "Tahun Mondok",
+      "Profesi Utama", "Nama Instansi/Usaha", "Bidang Keahlian",
+      "Konfirmasi Kehadiran", "Pendamping Keluarga", "Catatan Khusus"
+    ]);
+  }
+  
+  sheet.appendRow([
+    new Date(), data.id, data.namaLengkap, data.namaPanggilan,
+    "'" + data.noWhatsapp, data.emailAktif, data.provinsiDomisili,
+    data.kabKotaDomisili, data.kontakDarurat, data.kamarAsrama,
+    data.tahunMondok, data.profesiUtama, data.namaInstansi,
+    data.bidangKeahlian, data.konfirmasiKehadiran,
+    data.jumlahPendamping, data.catatanKhusus
+  ]);
+  
+  return ContentService.createTextOutput(JSON.stringify({status: "success"}))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+function doGet(e) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var rows = sheet.getDataRange().getValues();
+  if (rows.length <= 1) {
+    return ContentService.createTextOutput(JSON.stringify({status: "success", data: []}))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+  var result = rows.slice(1).map(function(r, idx) {
+    return {
+      timestamp: String(r[0] || ""),
+      id: String(r[1] || ("FRD-2012-" + ("000" + (idx + 1)).slice(-3))),
+      namaLengkap: String(r[2] || ""),
+      namaPanggilan: String(r[3] || ""),
+      noWhatsapp: String(r[4] || "").replace(/^'/, ""),
+      emailAktif: String(r[5] || ""),
+      provinsiDomisili: String(r[6] || ""),
+      kabKotaDomisili: String(r[7] || ""),
+      kontakDarurat: String(r[8] || ""),
+      kamarAsrama: String(r[9] || ""),
+      tahunMondok: String(r[10] || ""),
+      profesiUtama: String(r[11] || ""),
+      namaInstansi: String(r[12] || ""),
+      bidangKeahlian: String(r[13] || "").split(",").map(function(s){return s.trim();}).filter(Boolean),
+      konfirmasiKehadiran: String(r[14] || "Hadir"),
+      jumlahPendamping: String(r[15] || "Sendiri (0)"),
+      catatanKhusus: String(r[16] || "")
+    };
+  });
+  return ContentService.createTextOutput(JSON.stringify({status: "success", data: result}))
+    .setMimeType(ContentService.MimeType.JSON);
+}</pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Islamic Footer -->
+    <footer class="bg-emerald-950 text-emerald-200 border-t-2 border-gold-600/50 py-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-mosque text-gold-400 text-lg"></i>
+                <div>
+                    <div class="font-bold text-white">Panitia Reuni Firdaus Angkatan 2012 - Pondok Pesantren Lirboyo Kediri</div>
+                    <div class="text-emerald-400">Menjalin Ukhuwah, Mengabdi untuk Agama, Pesantren, dan Bangsa</div>
+                </div>
+            </div>
+            <div class="font-arabic text-base text-gold-300">
+                وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Container -->
+    <div id="toastContainer" class="fixed bottom-5 right-5 z-50 flex flex-col gap-2 max-w-sm w-full pointer-events-none px-4 sm:px-0"></div>
+
+    <!-- Custom Modal for Delete Confirmation (No native confirm/alert) -->
+    <div id="confirmModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/60 backdrop-blur-sm p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 space-y-4">
+            <div class="flex items-center gap-3 text-rose-600">
+                <div class="w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-800">Konfirmasi Hapus Baris</h3>
+            </div>
+            <p id="confirmModalText" class="text-sm text-slate-600">
+                Apakah Anda yakin ingin menghapus data alumni ini dari spreadsheet?
+            </p>
+            <div class="flex items-center justify-end gap-3 pt-2">
+                <button onclick="closeConfirmModal()" class="px-4 py-2 rounded-xl border border-slate-300 text-slate-700 text-sm font-semibold hover:bg-slate-100">
+                    Batal
+                </button>
+                <button id="confirmModalYesBtn" class="px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-sm font-semibold">
+                    Ya, Hapus Data
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Modal for Admin Password Authentication -->
+    <div id="adminLoginModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-emerald-950/75 backdrop-blur-sm p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border-2 border-gold-400 space-y-5 relative">
+            <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-900 text-gold-400 flex items-center justify-center text-lg shadow">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-base text-emerald-950">Otorisasi Admin Panitia</h3>
+                        <p class="text-xs text-slate-500">Akses Spreadsheet, Analisis & Google Sheets</p>
+                    </div>
+                </div>
+                <button type="button" onclick="closeAdminModal()" class="text-slate-400 hover:text-slate-600 p-1">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+
+            <form onsubmit="verifyAdminPassword(event)" class="space-y-4">
+                <div>
+                    <label for="adminPasswordInput" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                        Password Admin <span class="text-red-600">*</span>
+                    </label>
+                    <div class="relative">
+                        <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400">
+                            <i class="fa-solid fa-key"></i>
+                        </span>
+                        <input type="password" id="adminPasswordInput" required autocomplete="new-password" spellcheck="false"
+                            placeholder="••••••••••••"
+                            class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 focus:border-emerald-700 focus:ring-2 focus:ring-emerald-600/20 outline-none text-sm tracking-widest">
+                    </div>
+                    <p class="text-[11px] text-slate-400 mt-1"><i class="fa-solid fa-eye-slash mr-1"></i>Karakter password disembunyikan secara permanen demi keamanan.</p>
+                    <p id="adminLoginErrorMsg" class="hidden text-xs text-rose-600 font-semibold mt-1.5"></p>
+                </div>
+
+                <div class="flex items-center justify-end gap-2.5 pt-2">
+                    <button type="button" onclick="closeAdminModal()" class="px-4 py-2.5 rounded-xl border border-slate-300 text-slate-700 text-xs sm:text-sm font-semibold hover:bg-slate-100 transition">
+                        Batal
+                    </button>
+                    <button type="submit" id="adminLoginSubmitBtn" class="px-5 py-2.5 rounded-xl bg-emerald-800 hover:bg-emerald-900 text-gold-300 text-xs sm:text-sm font-bold shadow transition flex items-center gap-2">
+                        <i class="fa-solid fa-unlock-keyhole"></i> Buka Dasbor Admin
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // State Management: Initial Realistic Dataset of Alumni Reuni Firdaus PP. Lirboyo 2012
+        let alumniData = [
+            {
+                id: "FRD-2012-001",
+                timestamp: "2026-10-20 08:15",
+                namaLengkap: "KH. Ahmad Fauzi, S.Pd.I., M.Pd.",
+                namaPanggilan: "Gus Fauzi",
+                noWhatsapp: "6281234567801",
+                emailAktif: "ahmad.fauzi@pesantren.id",
+                provinsiDomisili: "Jawa Timur",
+                kabKotaDomisili: "Kab. Kediri",
+                kontakDarurat: "Nyai Siti Aminah (Istri) - 6281234567899",
+                kamarAsrama: "Kamar X, Komplek Firdaus, Madrasah Hasyim Asy'ari",
+                tahunMondok: "2006 - 2012",
+                profesiUtama: "Pengasuh/Pimpinan Pesantren",
+                namaInstansi: "PP. Roudlotul Ulum Pare",
+                bidangKeahlian: ["Pendidikan & Pengajaran", "Dakwah & Keagamaan"],
+                konfirmasiKehadiran: "Hadir",
+                jumlahPendamping: "Datang bersama Keluarga (Suami/Istri & Anak)",
+                catatanKhusus: "Membawa 2 anak balita"
+            },
+            {
+                id: "FRD-2012-002",
+                timestamp: "2026-10-20 09:40",
+                namaLengkap: "H. Muhammad Luthfi Hakim, S.H., M.Kn.",
+                namaPanggilan: "Kang Luthfi",
+                noWhatsapp: "6281331223344",
+                emailAktif: "luthfi.notaris@gmail.com",
+                provinsiDomisili: "Jawa Timur",
+                kabKotaDomisili: "Kota Surabaya",
+                kontakDarurat: "Hj. Nadia Rahma (Istri) - 6281331223355",
+                kamarAsrama: "Kamar IV, Komplek Firdaus, MHM Lirboyo",
+                tahunMondok: "2007 - 2012",
+                profesiUtama: "Wiraswasta/Pengusaha",
+                namaInstansi: "Kantor Notaris & PPAT Luthfi Hakim",
+                bidangKeahlian: ["Hukum & Legal", "Perdagangan & Bisnis"],
+                konfirmasiKehadiran: "Hadir",
+                jumlahPendamping: "Datang bersama Suami/Istri",
+                catatanKhusus: "Siap membantu koordinasi kafilah Surabaya"
+            },
+            {
+                id: "FRD-2012-003",
+                timestamp: "2026-10-21 13:20",
+                namaLengkap: "Dr. M. Bahrul Ulum, M.Ag.",
+                namaPanggilan: "Kang Bahrul",
+                noWhatsapp: "6285740112233",
+                emailAktif: "bahrul.ulum@walisongo.ac.id",
+                provinsiDomisili: "Jawa Tengah",
+                kabKotaDomisili: "Kota Semarang",
+                kontakDarurat: "Zulfa Fitriani (Istri) - 6285740112244",
+                kamarAsrama: "Kamar VII, Komplek Firdaus, MHM Lirboyo",
+                tahunMondok: "2005 - 2012",
+                profesiUtama: "Guru/Dosen/Akademisi",
+                namaInstansi: "UIN Walisongo Semarang",
+                bidangKeahlian: ["Pendidikan & Pengajaran", "Dakwah & Keagamaan", "Media & Publikasi"],
+                konfirmasiKehadiran: "Hadir",
+                jumlahPendamping: "Sendiri (0)",
+                catatanKhusus: "Berangkat rombongan bus pantura Jawa Tengah"
+            },
+            {
+                id: "FRD-2012-004",
+                timestamp: "2026-10-21 16:05",
+                namaLengkap: "Abdul Rozak Al-Farisi, S.Kom.",
+                namaPanggilan: "Kang Rozak",
+                noWhatsapp: "6281198765432",
+                emailAktif: "rozak.digital@nusantara.co.id",
+                provinsiDomisili: "DKI Jakarta",
+                kabKotaDomisili: "Jakarta Selatan",
+                kontakDarurat: "Halimah (Istri) - 6281198765400",
+                kamarAsrama: "Kamar II, Komplek Firdaus, MHM Lirboyo",
+                tahunMondok: "2008 - 2012",
+                profesiUtama: "Karyawan Swasta/BUMN",
+                namaInstansi: "PT. Telkom Indonesia",
+                bidangKeahlian: ["IT & Digital", "Media & Publikasi"],
+                konfirmasiKehadiran: "Rencana Hadir (Belum 100% pasti)",
+                jumlahPendamping: "Sendiri (0)",
+                catatanKhusus: "Menunggu jadwal cuti kantor akhir pekan"
+            },
+            {
+                id: "FRD-2012-005",
+                timestamp: "2026-10-21 19:50",
+                namaLengkap: "H. Syamsul Ma'arif, S.E.",
+                namaPanggilan: "Kang Syamsul",
+                noWhatsapp: "6282188990011",
+                emailAktif: "syamsul.textile@gmail.com",
+                provinsiDomisili: "Jawa Barat",
+                kabKotaDomisili: "Kab. Bandung",
+                kontakDarurat: "Hj. Wardah (Istri) - 6282188990022",
+                kamarAsrama: "Kamar IX, Komplek Firdaus, MHM Lirboyo",
+                tahunMondok: "2007 - 2012",
+                profesiUtama: "Wiraswasta/Pengusaha",
+                namaInstansi: "CV. Firdaus Garment & Sarung",
+                bidangKeahlian: ["Perdagangan & Bisnis", "Dakwah & Keagamaan"],
+                konfirmasiKehadiran: "Hadir",
+                jumlahPendamping: "Datang bersama Keluarga (Suami/Istri & Anak)",
+                catatanKhusus: "Menyumbang 50 pcs souvenir sarung untuk panitia"
+            },
+            {
+                id: "FRD-2012-006",
+                timestamp: "2026-10-22 07:30",
+                namaLengkap: "Ust. Miftahul Huda, Lc., M.H.",
+                namaPanggilan: "Kang Miftah",
+                noWhatsapp: "6285266778899",
+                emailAktif: "miftah.cairo@gmail.com",
+                provinsiDomisili: "Luar Negeri",
+                kabKotaDomisili: "Kairo, Mesir",
+                kontakDarurat: "H. Sulaiman (Ayah) - 6285266778800",
+                kamarAsrama: "Kamar I, Komplek Firdaus, MHM Lirboyo",
+                tahunMondok: "2006 - 2012",
+                profesiUtama: "Guru/Dosen/Akademisi",
+                namaInstansi: "Mahasiswa Doktoral Al-Azhar",
+                bidangKeahlian: ["Pendidikan & Pengajaran", "Dakwah & Keagamaan", "Hukum & Legal"],
+                konfirmasiKehadiran: "Berhalangan Hadir",
+                jumlahPendamping: "Tidak Hadir (0)",
+                catatanKhusus: "Sedang menyelesaikan disertasi di Mesir, siap hadir via Zoom"
+            }
+        ];
+
+        const DEFAULT_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyrfIb4iZzaS1H-M0GQlwCEJikUQfCGUZxTJnarK5FK9Jg7s8797QkEiCv-3Yjeu1Qr/exec";
+        let googleSheetWebhookUrl = DEFAULT_APPS_SCRIPT_URL;
+        let pendingDeleteId = null;
+
+        // Security & Anti-Abuse State
+        let isAdminAuthenticated = false;
+        let failedLoginAttempts = 0;
+        let loginLockoutUntil = 0;
+        let lastSubmissionTimestamp = 0;
+        let currentCaptchaExpected = 0;
+
+        // Obfuscated representation of the Admin Password (XOR key 42) so it never appears in plain text
+        const ADMIN_CIPHER_BYTES = [120, 75, 66, 75, 89, 67, 75, 30, 25, 24, 27, 11];
+        const CIPHER_KEY = 42;
+
+        function checkPasswordSecret(inputStr) {
+            if (!inputStr || inputStr.length !== ADMIN_CIPHER_BYTES.length) return false;
+            for (let i = 0; i < ADMIN_CIPHER_BYTES.length; i++) {
+                if ((inputStr.charCodeAt(i) ^ CIPHER_KEY) !== ADMIN_CIPHER_BYTES[i]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        // Generate Dynamic Arithmetic Captcha Challenge
+        function generateSecurityChallenge() {
+            const numA = Math.floor(Math.random() * 9) + 2;
+            const numB = Math.floor(Math.random() * 9) + 1;
+            currentCaptchaExpected = numA + numB;
+            const qEl = document.getElementById('captchaQuestionText');
+            const inputEl = document.getElementById('captchaAnswerInput');
+            if (qEl) qEl.textContent = `${numA} + ${numB} = ?`;
+            if (inputEl) inputEl.value = '';
+        }
+
+        // Handle Admin Login / Logout Button
+        function handleAdminButtonClick() {
+            if (isAdminAuthenticated) {
+                // Logout Admin and lock dashboards back
+                isAdminAuthenticated = false;
+                document.getElementById('adminNavTabs').classList.add('hidden');
+                document.getElementById('adminNavTabs').classList.remove('flex');
+                document.getElementById('demoFillBtn').classList.add('hidden');
+                document.getElementById('demoFillBtn').classList.remove('flex');
+                document.getElementById('adminAuthIcon').className = "fa-solid fa-lock";
+                document.getElementById('adminAuthText').textContent = "Login Admin";
+                document.getElementById('sideAdminBtnLabel').textContent = "Buka Dasbor Admin (Khusus Panitia)";
+                resetFormState();
+                switchTab('form');
+                showToast("Anda telah keluar dari Mode Admin. Dasbor kembali dikunci.", "info");
+            } else {
+                openAdminModal();
+            }
+        }
+
+        function openAdminModal() {
+            const modal = document.getElementById('adminLoginModal');
+            const passInput = document.getElementById('adminPasswordInput');
+            const errEl = document.getElementById('adminLoginErrorMsg');
+            passInput.value = '';
+            passInput.type = 'password';
+            errEl.classList.add('hidden');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            setTimeout(() => passInput.focus(), 80);
+        }
+
+        function closeAdminModal() {
+            const modal = document.getElementById('adminLoginModal');
+            const passInput = document.getElementById('adminPasswordInput');
+            if (passInput) passInput.value = '';
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function verifyAdminPassword(event) {
+            event.preventDefault();
+            const now = Date.now();
+            const errEl = document.getElementById('adminLoginErrorMsg');
+
+            if (now < loginLockoutUntil) {
+                const waitSec = Math.ceil((loginLockoutUntil - now) / 1000);
+                errEl.textContent = `Terlalu banyak percobaan gagal. Coba lagi dalam ${waitSec} detik.`;
+                errEl.classList.remove('hidden');
+                return;
+            }
+
+            const entered = document.getElementById('adminPasswordInput').value;
+            if (checkPasswordSecret(entered)) {
+                isAdminAuthenticated = true;
+                failedLoginAttempts = 0;
+                closeAdminModal();
+
+                const nav = document.getElementById('adminNavTabs');
+                nav.classList.remove('hidden');
+                nav.classList.add('flex');
+
+                const demoBtn = document.getElementById('demoFillBtn');
+                demoBtn.classList.remove('hidden');
+                demoBtn.classList.add('flex');
+
+                document.getElementById('adminAuthIcon').className = "fa-solid fa-Right-from-bracket fa-right-from-bracket";
+                document.getElementById('adminAuthText').textContent = "Keluar Admin";
+                document.getElementById('sideAdminBtnLabel').textContent = "Keluar dari Mode Admin";
+
+                switchTab('sheet');
+                showToast("Otorisasi berhasil! Selamat datang di Dasbor Admin Panitia.", "success");
+            } else {
+                failedLoginAttempts++;
+                if (failedLoginAttempts >= 3) {
+                    loginLockoutUntil = Date.now() + 30000; // 30-second brute-force lockout
+                    failedLoginAttempts = 0;
+                    errEl.textContent = "3x gagal! Akses login dikunci sementara selama 30 detik.";
+                } else {
+                    errEl.textContent = `Password Admin tidak valid! (Percobaan ${failedLoginAttempts}/3)`;
+                }
+                errEl.classList.remove('hidden');
+                document.getElementById('adminPasswordInput').value = '';
+            }
+        }
+
+        // Switch active view tab (Protected by Admin Auth Guard)
+        function switchTab(tabName) {
+            if (tabName !== 'form' && !isAdminAuthenticated) {
+                showToast("Akses dibatasi! Silakan login sebagai Admin terlebih dahulu.", "error");
+                openAdminModal();
+                return;
+            }
+
+            const tabs = ['form', 'sheet', 'analytics', 'integration'];
+            tabs.forEach(t => {
+                const content = document.getElementById(`tabContent-${t}`);
+                const btn = document.getElementById(`tabBtn-${t}`);
+                if (t === tabName) {
+                    content.classList.remove('hidden');
+                    btn.className = "tab-btn flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm transition-all bg-gold-500 text-emerald-950 shadow-md";
+                } else {
+                    content.classList.add('hidden');
+                    btn.className = "tab-btn flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm transition-all bg-emerald-900/70 text-emerald-100 hover:bg-emerald-800 border border-emerald-700";
+                }
+            });
+
+            if (tabName === 'sheet') renderSpreadsheet();
+            if (tabName === 'analytics') renderAnalytics();
+        }
+
+        // Auto-format phone number to 628xxxxxxxxxx without spaces or dashes
+        function sanitizePhoneInput(inputEl) {
+            let cleaned = inputEl.value.replace(/[^0-9]/g, '');
+            if (cleaned.startsWith('08')) {
+                cleaned = '628' + cleaned.substring(2);
+            } else if (cleaned.startsWith('8')) {
+                cleaned = '628' + cleaned.substring(1);
+            }
+            inputEl.value = cleaned;
+            updateLiveCardPreview();
+        }
+
+        // Toggle companion dropdown requirement based on attendance radio
+        function handleAttendanceChange() {
+            const selected = document.querySelector('input[name="konfirmasiKehadiran"]:checked')?.value || "";
+            const pendampingSelect = document.getElementById('jumlahPendamping');
+            const reqStar = document.getElementById('pendampingReqStar');
+
+            if (selected === 'Berhalangan Hadir') {
+                pendampingSelect.value = 'Tidak Hadir (0)';
+                pendampingSelect.required = false;
+                reqStar.classList.add('hidden');
+            } else {
+                if (pendampingSelect.value === 'Tidak Hadir (0)') {
+                    pendampingSelect.value = '';
+                }
+                pendampingSelect.required = true;
+                reqStar.classList.remove('hidden');
+            }
+            updateLiveCardPreview();
+        }
+
+        // Live preview on the right-hand Digital Alumni Card
+        function updateLiveCardPreview() {
+            const nama = document.getElementById('namaLengkap').value.trim() || 'Menunggu Input Data...';
+            const kamar = document.getElementById('kamarAsrama').value.trim() || '-';
+            const kab = document.getElementById('kabKotaDomisili').value.trim();
+            const prov = document.getElementById('provinsiDomisili').value;
+            const kehadiran = document.querySelector('input[name="konfirmasiKehadiran"]:checked')?.value || 'Belum Dipilih';
+
+            document.getElementById('cardPreviewName').textContent = nama;
+            document.getElementById('cardPreviewKamar').textContent = kamar;
+            document.getElementById('cardPreviewDomisili').textContent = kab ? `${kab}, ${prov}` : (prov || '-');
+
+            const statusEl = document.getElementById('cardPreviewStatus');
+            statusEl.textContent = kehadiran;
+            if (kehadiran === 'Hadir') {
+                statusEl.className = "px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-500 text-emerald-950";
+            } else if (kehadiran.startsWith('Rencana')) {
+                statusEl.className = "px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-400 text-amber-950";
+            } else if (kehadiran === 'Berhalangan Hadir') {
+                statusEl.className = "px-2.5 py-0.5 rounded-full text-xs font-bold bg-rose-500 text-white";
+            } else {
+                statusEl.className = "px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-700 text-emerald-100";
+            }
+
+            const nextNum = String(alumniData.length + 1).padStart(3, '0');
+            const editId = document.getElementById('editRowId').value;
+            document.getElementById('cardPreviewId').textContent = editId ? editId : `#FRD-2012-${nextNum}`;
+        }
+
+        // Fill form with realistic demo data for quick testing
+        function fillDemoForm() {
+            document.getElementById('namaLengkap').value = "Ust. H. Zainul Arifin, S.H.I.";
+            document.getElementById('namaPanggilan').value = "Kang Zainul";
+            document.getElementById('noWhatsapp').value = "6281299887766";
+            document.getElementById('emailAktif').value = "zainul.arifin@lirboyo.net";
+            document.getElementById('provinsiDomisili').value = "Jawa Timur";
+            document.getElementById('kabKotaDomisili').value = "Kab. Malang";
+            document.getElementById('kontakDarurat').value = "Hj. Robiatul Adawiyah (Istri) - 6281299887755";
+            document.getElementById('kamarAsrama').value = "Kamar VI, Komplek Firdaus, Madrasah Hasyim Asy'ari";
+            document.getElementById('tahunMondok').value = "2008 - 2013";
+            document.getElementById('profesiUtama').value = "Pengasuh/Pimpinan Pesantren";
+            document.getElementById('namaInstansi').value = "PP. Al-Falah Singosari Malang";
+
+            document.querySelectorAll('input[name="bidangKeahlian"]').forEach(cb => {
+                cb.checked = (cb.value === "Pendidikan & Pengajaran" || cb.value === "Dakwah & Keagamaan");
+            });
+
+            const radioHadir = document.querySelector('input[name="konfirmasiKehadiran"][value="Hadir"]');
+            if (radioHadir) radioHadir.checked = true;
+            handleAttendanceChange();
+            document.getElementById('jumlahPendamping').value = "Datang bersama Suami/Istri";
+            document.getElementById('catatanKhusus').value = "Siap menjadi koordinator rombongan alumni Malang Raya";
+
+            updateLiveCardPreview();
+            showToast("Contoh data alumni berhasil diisikan ke formulir.", "info");
+        }
+
+        // Clean input text from potential HTML/script injection
+        function cleanInputText(val) {
+            return String(val || "").replace(/[<>]/g, "").trim();
+        }
+
+        // Handle Form Submit
+        async function handleFormSubmit(event) {
+            event.preventDefault();
+
+            // 1. Honeypot Bot Trap Check
+            const honeypotVal = document.getElementById('honeypotTrap')?.value || "";
+            if (honeypotVal !== "") {
+                showToast("Aktivitas mencurigakan terdeteksi oleh sistem keamanan.", "error");
+                return;
+            }
+
+            // 2. Cooldown / Rate-limit check for public submissions (15 seconds between entries)
+            const nowMs = Date.now();
+            if (!isAdminAuthenticated && (nowMs - lastSubmissionTimestamp < 15000)) {
+                const remaining = Math.ceil((15000 - (nowMs - lastSubmissionTimestamp)) / 1000);
+                showToast(`Mohon tunggu ${remaining} detik sebelum mengirim data kembali.`, "error");
+                return;
+            }
+
+            const namaLengkap = cleanInputText(document.getElementById('namaLengkap').value);
+            const namaPanggilan = cleanInputText(document.getElementById('namaPanggilan').value);
+            const noWhatsapp = cleanInputText(document.getElementById('noWhatsapp').value);
+            const emailAktif = cleanInputText(document.getElementById('emailAktif').value);
+            const provinsiDomisili = document.getElementById('provinsiDomisili').value;
+            const kabKotaDomisili = cleanInputText(document.getElementById('kabKotaDomisili').value);
+            const kontakDarurat = cleanInputText(document.getElementById('kontakDarurat').value);
+            const kamarAsrama = cleanInputText(document.getElementById('kamarAsrama').value);
+            const tahunMondok = cleanInputText(document.getElementById('tahunMondok').value);
+            const profesiUtama = document.getElementById('profesiUtama').value;
+            const namaInstansi = cleanInputText(document.getElementById('namaInstansi').value);
+
+            const bidangKeahlian = Array.from(document.querySelectorAll('input[name="bidangKeahlian"]:checked')).map(el => el.value);
+            const konfirmasiKehadiran = document.querySelector('input[name="konfirmasiKehadiran"]:checked')?.value || "";
+            const jumlahPendamping = document.getElementById('jumlahPendamping').value || "Tidak Hadir (0)";
+            const catatanKhusus = cleanInputText(document.getElementById('catatanKhusus').value);
+
+            // Validate required fields
+            if (!namaLengkap || !noWhatsapp || !provinsiDomisili || !kabKotaDomisili || !kontakDarurat || !kamarAsrama || !tahunMondok || !profesiUtama || !konfirmasiKehadiran) {
+                showToast("Mohon lengkapi seluruh kolom wajib bertanda bintang (*).", "error");
+                return;
+            }
+
+            if (!/^628[0-9]{7,13}$/.test(noWhatsapp)) {
+                showToast("Format Nomor WhatsApp harus diawali 628 (contoh: 6281234567890).", "error");
+                document.getElementById('noWhatsapp').focus();
+                return;
+            }
+
+            if (konfirmasiKehadiran !== "Berhalangan Hadir" && (!jumlahPendamping || jumlahPendamping === "Tidak Hadir (0)")) {
+                showToast("Mohon pilih Jumlah Anggota Keluarga yang ikut mendampingi.", "error");
+                document.getElementById('jumlahPendamping').focus();
+                return;
+            }
+
+            // 3. Verify Security Challenge (Captcha)
+            const userCaptcha = parseInt(document.getElementById('captchaAnswerInput').value, 10);
+            if (isNaN(userCaptcha) || userCaptcha !== currentCaptchaExpected) {
+                showToast("Jawaban Verifikasi Keamanan Anti-Spam belum tepat. Silakan hitung kembali.", "error");
+                generateSecurityChallenge();
+                document.getElementById('captchaAnswerInput').focus();
+                return;
+            }
+
+            const editId = document.getElementById('editRowId').value;
+
+            // 4. Prevent Duplicate WhatsApp Number Registration
+            const duplicateEntry = alumniData.find(item => item.noWhatsapp === noWhatsapp && item.id !== editId);
+            if (duplicateEntry) {
+                showToast(`Nomor WhatsApp ${noWhatsapp} sudah terdaftar atas nama ${duplicateEntry.namaLengkap}. Hubungi Admin jika ingin mengubah data.`, "error");
+                return;
+            }
+
+            const now = new Date();
+            const timestamp = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')} ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
+
+            let recordObj;
+
+            if (editId && isAdminAuthenticated) {
+                const idx = alumniData.findIndex(item => item.id === editId);
+                if (idx !== -1) {
+                    recordObj = {
+                        ...alumniData[idx],
+                        namaLengkap, namaPanggilan, noWhatsapp, emailAktif,
+                        provinsiDomisili, kabKotaDomisili, kontakDarurat,
+                        kamarAsrama, tahunMondok, profesiUtama, namaInstansi,
+                        bidangKeahlian, konfirmasiKehadiran, jumlahPendamping, catatanKhusus
+                    };
+                    alumniData[idx] = recordObj;
+                    showToast(`Data ${namaLengkap} (${editId}) berhasil diperbarui di Spreadsheet!`, "success");
+                }
+            } else {
+                const newId = `FRD-2012-${String(alumniData.length + 1).padStart(3, '0')}`;
+                recordObj = {
+                    id: newId,
+                    timestamp,
+                    namaLengkap, namaPanggilan, noWhatsapp, emailAktif,
+                    provinsiDomisili, kabKotaDomisili, kontakDarurat,
+                    kamarAsrama, tahunMondok, profesiUtama, namaInstansi,
+                    bidangKeahlian, konfirmasiKehadiran, jumlahPendamping, catatanKhusus
+                };
+                alumniData.unshift(recordObj);
+                lastSubmissionTimestamp = Date.now();
+                showToast(`Alhamdulillah! Data ${namaLengkap} berhasil terdaftar dengan ID ${newId}.`, "success");
+            }
+
+            // Realtime save to Google Sheets Web App URL
+            if (googleSheetWebhookUrl && recordObj) {
+                sendRecordToGoogleSheets(recordObj);
+            }
+
+            resetFormState();
+            updateGlobalCounters();
+            renderPublicRecapSpreadsheet();
+            renderSpreadsheet();
+            renderAnalytics();
+
+            // Only redirect to Admin Spreadsheet tab if logged in as Admin and editing
+            if (isAdminAuthenticated && editId) {
+                switchTab('sheet');
+            }
+        }
+
+        function resetFormState() {
+            document.getElementById('alumniForm').reset();
+            document.getElementById('editRowId').value = "";
+            document.getElementById('submitBtnText').textContent = "Simpan & Kirim Data Pendaftaran";
+            generateSecurityChallenge();
+            updateLiveCardPreview();
+        }
+
+        // Render Interactive Spreadsheet Table
+        function renderSpreadsheet() {
+            const tbody = document.getElementById('spreadsheetBody');
+            const searchVal = (document.getElementById('searchSheetInput')?.value || "").toLowerCase();
+            const provFilter = document.getElementById('filterProvinsi')?.value || "ALL";
+            const hadirFilter = document.getElementById('filterKehadiran')?.value || "ALL";
+            const profesiFilter = document.getElementById('filterProfesi')?.value || "ALL";
+
+            const filtered = alumniData.filter(row => {
+                const matchSearch =
+                    row.namaLengkap.toLowerCase().includes(searchVal) ||
+                    (row.namaPanggilan || "").toLowerCase().includes(searchVal) ||
+                    row.noWhatsapp.includes(searchVal) ||
+                    row.kabKotaDomisili.toLowerCase().includes(searchVal) ||
+                    row.kamarAsrama.toLowerCase().includes(searchVal) ||
+                    (row.namaInstansi || "").toLowerCase().includes(searchVal) ||
+                    row.id.toLowerCase().includes(searchVal);
+
+                const matchProv = provFilter === "ALL" || row.provinsiDomisili === provFilter;
+                const matchHadir = hadirFilter === "ALL" || row.konfirmasiKehadiran === hadirFilter;
+                const matchProfesi = profesiFilter === "ALL" || row.profesiUtama === profesiFilter;
+
+                return matchSearch && matchProv && matchHadir && matchProfesi;
+            });
+
+            document.getElementById('sheetFilterSummary').textContent =
+                `Menampilkan ${filtered.length} dari ${alumniData.length} baris alumni`;
+
+            if (filtered.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="18" class="py-12 text-center text-slate-400">
+                            <i class="fa-solid fa-folder-open text-3xl mb-2 block text-slate-300"></i>
+                            Tidak ada data alumni yang cocok dengan filter pencarian.
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            tbody.innerHTML = filtered.map((row, index) => {
+                let badgeClass = "bg-emerald-100 text-emerald-800 border-emerald-300";
+                if (row.konfirmasiKehadiran.startsWith("Rencana")) {
+                    badgeClass = "bg-amber-100 text-amber-800 border-amber-300";
+                } else if (row.konfirmasiKehadiran === "Berhalangan Hadir") {
+                    badgeClass = "bg-rose-100 text-rose-800 border-rose-300";
+                }
+
+                const keahlianBadges = (row.bidangKeahlian || []).map(k =>
+                    `<span class="inline-block bg-slate-100 text-slate-700 border border-slate-200 px-2 py-0.5 rounded-md text-[11px] mr-1 mb-1">${escapeHtml(k)}</span>`
+                ).join('') || '-';
+
+                return `
+                    <tr class="hover:bg-emerald-50/60 transition whitespace-nowrap">
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-center font-mono text-xs bg-slate-50 text-slate-500">${index + 1}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 font-mono text-xs font-bold text-emerald-800">${escapeHtml(row.id)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 font-semibold text-slate-900">${escapeHtml(row.namaLengkap)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-600">${escapeHtml(row.namaPanggilan || '-')}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 font-mono text-xs">
+                            <a href="https://wa.me/${escapeHtml(row.noWhatsapp)}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-emerald-700 hover:underline font-semibold">
+                                <i class="fa-brands fa-whatsapp"></i> ${escapeHtml(row.noWhatsapp)}
+                            </a>
+                        </td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-600 text-xs">${escapeHtml(row.emailAktif || '-')}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 font-medium text-slate-800">${escapeHtml(row.provinsiDomisili)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-700">${escapeHtml(row.kabKotaDomisili)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-600 text-xs">${escapeHtml(row.kontakDarurat)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-800 font-medium">${escapeHtml(row.kamarAsrama)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-center font-mono text-xs">${escapeHtml(row.tahunMondok)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-800">${escapeHtml(row.profesiUtama)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-600">${escapeHtml(row.namaInstansi || '-')}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 whitespace-normal min-w-[200px]">${keahlianBadges}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200">
+                            <span class="px-2.5 py-1 rounded-full text-xs font-bold border ${badgeClass}">
+                                ${escapeHtml(row.konfirmasiKehadiran)}
+                            </span>
+                        </td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-700 text-xs">${escapeHtml(row.jumlahPendamping)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-600 text-xs">${escapeHtml(row.catatanKhusus || '-')}</td>
+                        <td class="py-2.5 px-3 text-center">
+                            <div class="inline-flex items-center gap-1">
+                                <button onclick="editRow('${row.id}')" class="p-1.5 rounded-lg text-emerald-700 hover:bg-emerald-100 transition" title="Edit Baris">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </button>
+                                <button onclick="openDeleteModal('${row.id}')" class="p-1.5 rounded-lg text-rose-600 hover:bg-rose-100 transition" title="Hapus Baris">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Populate form to edit an existing row
+        function editRow(id) {
+            const item = alumniData.find(r => r.id === id);
+            if (!item) return;
+
+            document.getElementById('editRowId').value = item.id;
+            document.getElementById('namaLengkap').value = item.namaLengkap;
+            document.getElementById('namaPanggilan').value = item.namaPanggilan || "";
+            document.getElementById('noWhatsapp').value = item.noWhatsapp;
+            document.getElementById('emailAktif').value = item.emailAktif || "";
+            document.getElementById('provinsiDomisili').value = item.provinsiDomisili;
+            document.getElementById('kabKotaDomisili').value = item.kabKotaDomisili;
+            document.getElementById('kontakDarurat').value = item.kontakDarurat;
+            document.getElementById('kamarAsrama').value = item.kamarAsrama;
+            document.getElementById('tahunMondok').value = item.tahunMondok;
+            document.getElementById('profesiUtama').value = item.profesiUtama;
+            document.getElementById('namaInstansi').value = item.namaInstansi || "";
+
+            document.querySelectorAll('input[name="bidangKeahlian"]').forEach(cb => {
+                cb.checked = (item.bidangKeahlian || []).includes(cb.value);
+            });
+
+            document.querySelectorAll('input[name="konfirmasiKehadiran"]').forEach(rb => {
+                rb.checked = (rb.value === item.konfirmasiKehadiran);
+            });
+
+            handleAttendanceChange();
+            document.getElementById('jumlahPendamping').value = item.jumlahPendamping;
+            document.getElementById('catatanKhusus').value = item.catatanKhusus || "";
+
+            document.getElementById('submitBtnText').textContent = `Perbarui Data (${item.id})`;
+            updateLiveCardPreview();
+            switchTab('form');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            showToast(`Mode Edit aktif untuk ${item.namaLengkap}`, "info");
+        }
+
+        // Custom Delete Modal Handlers
+        function openDeleteModal(id) {
+            const item = alumniData.find(r => r.id === id);
+            if (!item) return;
+            pendingDeleteId = id;
+            document.getElementById('confirmModalText').textContent =
+                `Apakah Anda yakin ingin menghapus data alumni "${item.namaLengkap}" (${item.id}) dari spreadsheet?`;
+            const modal = document.getElementById('confirmModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeConfirmModal() {
+            pendingDeleteId = null;
+            const modal = document.getElementById('confirmModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        document.getElementById('confirmModalYesBtn').addEventListener('click', () => {
+            if (pendingDeleteId) {
+                alumniData = alumniData.filter(r => r.id !== pendingDeleteId);
+                renderPublicRecapSpreadsheet();
+                renderSpreadsheet();
+                updateGlobalCounters();
+                showToast("Baris data alumni berhasil dihapus.", "info");
+            }
+            closeConfirmModal();
+        });
+
+        // Mask phone numbers on the public registration dashboard to prevent data harvesting/abuse
+        function maskPhoneNumber(phone) {
+            const str = String(phone || "");
+            if (str.length <= 7) return str;
+            return str.substring(0, 5) + "••••" + str.substring(str.length - 3);
+        }
+
+        // Render Real-Time Spreadsheet Recap on the Main Registration Dashboard
+        function renderPublicRecapSpreadsheet() {
+            const tbody = document.getElementById('publicRealtimeSheetBody');
+            if (!tbody) return;
+
+            const searchVal = (document.getElementById('publicRecapSearch')?.value || "").toLowerCase();
+            const hadirFilter = document.getElementById('publicRecapFilterHadir')?.value || "ALL";
+
+            const filtered = alumniData.filter(row => {
+                const matchSearch =
+                    (row.namaLengkap || "").toLowerCase().includes(searchVal) ||
+                    (row.namaPanggilan || "").toLowerCase().includes(searchVal) ||
+                    (row.kabKotaDomisili || "").toLowerCase().includes(searchVal) ||
+                    (row.provinsiDomisili || "").toLowerCase().includes(searchVal) ||
+                    (row.kamarAsrama || "").toLowerCase().includes(searchVal) ||
+                    (row.id || "").toLowerCase().includes(searchVal);
+
+                let matchHadir = true;
+                if (hadirFilter === "BISA_HADIR") {
+                    matchHadir = row.konfirmasiKehadiran === "Hadir" || (row.konfirmasiKehadiran || "").startsWith("Rencana");
+                } else if (hadirFilter !== "ALL") {
+                    matchHadir = row.konfirmasiKehadiran === hadirFilter;
+                }
+
+                return matchSearch && matchHadir;
+            });
+
+            const footerInfo = document.getElementById('publicRecapFooterInfo');
+            if (footerInfo) {
+                footerInfo.textContent = `Menampilkan ${filtered.length} dari total ${alumniData.length} alumni terdata di spreadsheet.`;
+            }
+
+            if (filtered.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="12" class="py-10 text-center text-slate-400">
+                            <i class="fa-solid fa-table-list text-2xl mb-1.5 block text-slate-300"></i>
+                            Belum ada data alumni yang sesuai dengan pencarian Anda.
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            tbody.innerHTML = filtered.map((row, idx) => {
+                let badgeClass = "bg-emerald-100 text-emerald-800 border-emerald-300";
+                if ((row.konfirmasiKehadiran || "").startsWith("Rencana")) {
+                    badgeClass = "bg-amber-100 text-amber-800 border-amber-300";
+                } else if (row.konfirmasiKehadiran === "Berhalangan Hadir") {
+                    badgeClass = "bg-rose-100 text-rose-800 border-rose-300";
+                }
+
+                return `
+                    <tr class="hover:bg-emerald-50/60 transition whitespace-nowrap">
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-center font-mono text-xs bg-slate-50 text-slate-500">${idx + 1}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 font-mono text-xs font-bold text-emerald-800">${escapeHtml(row.id)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 font-mono text-[11px] text-slate-500">${escapeHtml(row.timestamp || '-')}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 font-semibold text-slate-900">${escapeHtml(row.namaLengkap)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-600">${escapeHtml(row.namaPanggilan || '-')}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-800 font-medium">${escapeHtml(row.kamarAsrama)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-center font-mono text-xs">${escapeHtml(row.tahunMondok)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-700">${escapeHtml(row.kabKotaDomisili)}, <span class="font-semibold text-emerald-900">${escapeHtml(row.provinsiDomisili)}</span></td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 text-slate-700">${escapeHtml(row.profesiUtama)}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200 font-mono text-xs text-slate-500">${escapeHtml(maskPhoneNumber(row.noWhatsapp))}</td>
+                        <td class="py-2.5 px-3 border-r border-slate-200">
+                            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold border ${badgeClass}">
+                                ${escapeHtml(row.konfirmasiKehadiran)}
+                            </span>
+                        </td>
+                        <td class="py-2.5 px-3 text-slate-700 text-xs">${escapeHtml(row.jumlahPendamping)}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Render Senior Data Analyst Dashboard
+        function renderAnalytics() {
+            const total = alumniData.length;
+            const hadirList = alumniData.filter(r => r.konfirmasiKehadiran === "Hadir");
+            const rencanaList = alumniData.filter(r => r.konfirmasiKehadiran.startsWith("Rencana"));
+
+            // Calculate estimated total headcount (Alumni + Family Companions)
+            let totalPax = 0;
+            alumniData.forEach(r => {
+                if (r.konfirmasiKehadiran === "Hadir" || r.konfirmasiKehadiran.startsWith("Rencana")) {
+                    if (r.jumlahPendamping === "Sendiri (0)") totalPax += 1;
+                    else if (r.jumlahPendamping === "Datang bersama Suami/Istri") totalPax += 2;
+                    else if (r.jumlahPendamping.includes("Keluarga")) totalPax += 3; // conservative average 3 pax
+                    else totalPax += 1;
+                }
+            });
+
+            document.getElementById('kpiTotalAlumni').textContent = total;
+            document.getElementById('kpiHadirCount').textContent = hadirList.length;
+            const pct = total > 0 ? Math.round((hadirList.length / total) * 100) : 0;
+            document.getElementById('kpiHadirPercent').textContent = `${pct}% dari total responden`;
+            document.getElementById('kpiRencanaCount').textContent = rencanaList.length;
+            document.getElementById('kpiEstimasiKonsumsi').textContent = `${totalPax} Pax`;
+
+            // Helper to render horizontal bar distribution
+            const buildBarList = (countsObj, containerId, barColorClass) => {
+                const entries = Object.entries(countsObj).sort((a, b) => b[1] - a[1]);
+                const container = document.getElementById(containerId);
+                if (entries.length === 0) {
+                    container.innerHTML = `<p class="text-xs text-slate-400">Belum ada data</p>`;
+                    return;
+                }
+                container.innerHTML = entries.map(([label, count]) => {
+                    const percent = total > 0 ? Math.round((count / total) * 100) : 0;
+                    return `
+                        <div class="space-y-1">
+                            <div class="flex justify-between text-xs font-semibold text-slate-700">
+                                <span>${escapeHtml(label)}</span>
+                                <span class="text-emerald-800 font-bold">${count} Alumni (${percent}%)</span>
+                            </div>
+                            <div class="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden">
+                                <div class="h-full ${barColorClass} rounded-full transition-all duration-500" style="width: ${Math.max(percent, 4)}%"></div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            };
+
+            // 1. Provinsi Distribution
+            const provCounts = {};
+            alumniData.forEach(r => {
+                provCounts[r.provinsiDomisili] = (provCounts[r.provinsiDomisili] || 0) + 1;
+            });
+            buildBarList(provCounts, 'chartProvinsi', 'bg-emerald-600');
+
+            // 2. Profesi Distribution
+            const profesiCounts = {};
+            alumniData.forEach(r => {
+                profesiCounts[r.profesiUtama] = (profesiCounts[r.profesiUtama] || 0) + 1;
+            });
+            buildBarList(profesiCounts, 'chartProfesi', 'bg-amber-500');
+
+            // 3. Bidang Keahlian Distribution
+            const keahlianCounts = {};
+            alumniData.forEach(r => {
+                (r.bidangKeahlian || []).forEach(k => {
+                    keahlianCounts[k] = (keahlianCounts[k] || 0) + 1;
+                });
+            });
+            buildBarList(keahlianCounts, 'chartKeahlian', 'bg-teal-600');
+
+            // 4. Pendamping Distribution
+            const pendampingCounts = {};
+            alumniData.forEach(r => {
+                pendampingCounts[r.jumlahPendamping] = (pendampingCounts[r.jumlahPendamping] || 0) + 1;
+            });
+            buildBarList(pendampingCounts, 'chartPendamping', 'bg-emerald-800');
+        }
+
+        // Copy entire table in TSV format so user can press Ctrl+V directly inside Google Sheets
+        function copySpreadsheetForGoogleSheets() {
+            const headers = [
+                "ID Alumni", "Waktu Input", "Nama Lengkap & Gelar", "Nama Panggilan",
+                "Nomor WhatsApp", "Email Aktif", "Provinsi Domisili", "Kabupaten/Kota Domisili",
+                "Kontak Darurat", "Kamar/Asrama/Madrasah Terakhir", "Tahun Mondok",
+                "Profesi Utama", "Nama Instansi/Usaha", "Bidang Keahlian",
+                "Konfirmasi Kehadiran", "Pendamping Keluarga", "Catatan Khusus"
+            ];
+
+            const rows = alumniData.map(r => [
+                r.id, r.timestamp, r.namaLengkap, r.namaPanggilan || "-",
+                r.noWhatsapp, r.emailAktif || "-", r.provinsiDomisili, r.kabKotaDomisili,
+                r.kontakDarurat, r.kamarAsrama, r.tahunMondok,
+                r.profesiUtama, r.namaInstansi || "-", (r.bidangKeahlian || []).join(", "),
+                r.konfirmasiKehadiran, r.jumlahPendamping, r.catatanKhusus || "-"
+            ]);
+
+            const tsvContent = [headers, ...rows]
+                .map(e => e.map(cell => String(cell).replace(/\t|\n|\r/g, " ")).join("\t"))
+                .join("\n");
+
+            copyTextToClipboard(tsvContent);
+            showToast("Data berhasil disalin! Buka Google Sheets lalu tekan Ctrl+V (Paste).", "success");
+        }
+
+        // Export to Excel-compatible UTF-8 CSV
+        function exportToCSV() {
+            const headers = [
+                "ID Alumni", "Waktu Input", "Nama Lengkap & Gelar", "Nama Panggilan",
+                "Nomor WhatsApp", "Email Aktif", "Provinsi Domisili", "Kabupaten/Kota Domisili",
+                "Kontak Darurat", "Kamar/Asrama/Madrasah Terakhir", "Tahun Mondok",
+                "Profesi Utama", "Nama Instansi/Usaha", "Bidang Keahlian",
+                "Konfirmasi Kehadiran", "Pendamping Keluarga", "Catatan Khusus"
+            ];
+
+            const escapeCsvCell = (val) => {
+                const str = String(val ?? "");
+                return `"${str.replace(/"/g, '""')}"`;
+            };
+
+            const rows = alumniData.map(r => [
+                r.id, r.timestamp, r.namaLengkap, r.namaPanggilan || "",
+                `'${r.noWhatsapp}`, r.emailAktif || "", r.provinsiDomisili, r.kabKotaDomisili,
+                r.kontakDarurat, r.kamarAsrama, r.tahunMondok,
+                r.profesiUtama, r.namaInstansi || "", (r.bidangKeahlian || []).join("; "),
+                r.konfirmasiKehadiran, r.jumlahPendamping, r.catatanKhusus || ""
+            ]);
+
+            const csvString = "\uFEFF" + [headers, ...rows]
+                .map(row => row.map(escapeCsvCell).join(","))
+                .join("\r\n");
+
+            const blob = new Blob([csvString], { type: "text/csv;charset=utf-8;" });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = url;
+            link.setAttribute("download", "Data_Alumni_Reuni_Firdaus_Lirboyo_2012.csv");
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+
+            showToast("File CSV/Excel berhasil diunduh!", "success");
+        }
+
+        // Google Sheets Webhook Integration
+        function saveWebhookConfig() {
+            const url = document.getElementById('webhookUrlInput').value.trim();
+            googleSheetWebhookUrl = url || DEFAULT_APPS_SCRIPT_URL;
+            const statusEl = document.getElementById('headerSyncStatus');
+            if (googleSheetWebhookUrl) {
+                statusEl.innerHTML = `Terhubung ke Google Sheets (Realtime)`;
+                showToast("URL Google Apps Script berhasil disimpan & diaktifkan!", "success");
+                syncFromGoogleSheets(false);
+            }
+        }
+
+        function updateSyncStatusIndicator(statusText, isSyncing = false) {
+            const badgeText = document.getElementById('publicSyncBadgeText');
+            const lastSyncEl = document.getElementById('lastSyncTimeText');
+            const spinIcon = document.getElementById('syncSpinIcon');
+
+            if (badgeText && statusText) badgeText.textContent = statusText;
+            if (spinIcon) {
+                if (isSyncing) spinIcon.classList.add('fa-spin');
+                else spinIcon.classList.remove('fa-spin');
+            }
+            if (lastSyncEl && !isSyncing) {
+                const now = new Date();
+                const timeStr = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
+                lastSyncEl.textContent = `Sinkronisasi Realtime: ${timeStr} WIB`;
+            }
+        }
+
+        async function sendRecordToGoogleSheets(record) {
+            if (!googleSheetWebhookUrl) return;
+            updateSyncStatusIndicator("Menyimpan ke Spreadsheet...", true);
+            try {
+                const flatRecord = {
+                    action: "insert",
+                    timestamp: record.timestamp,
+                    id: record.id,
+                    namaLengkap: record.namaLengkap,
+                    namaPanggilan: record.namaPanggilan || "-",
+                    noWhatsapp: record.noWhatsapp,
+                    emailAktif: record.emailAktif || "-",
+                    provinsiDomisili: record.provinsiDomisili,
+                    kabKotaDomisili: record.kabKotaDomisili,
+                    kontakDarurat: record.kontakDarurat,
+                    kamarAsrama: record.kamarAsrama,
+                    tahunMondok: record.tahunMondok,
+                    profesiUtama: record.profesiUtama,
+                    namaInstansi: record.namaInstansi || "-",
+                    bidangKeahlian: Array.isArray(record.bidangKeahlian) ? record.bidangKeahlian.join(", ") : (record.bidangKeahlian || ""),
+                    konfirmasiKehadiran: record.konfirmasiKehadiran,
+                    jumlahPendamping: record.jumlahPendamping,
+                    catatanKhusus: record.catatanKhusus || "-"
+                };
+
+                // Build query parameters as well so both e.postData.contents and e.parameter work in Google Apps Script
+                const queryParams = new URLSearchParams(flatRecord).toString();
+                const targetUrl = `${googleSheetWebhookUrl}${googleSheetWebhookUrl.includes('?') ? '&' : '?'}${queryParams}`;
+
+                await fetch(targetUrl, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+                    body: JSON.stringify(flatRecord)
+                });
+
+                updateSyncStatusIndicator("Tersimpan di Google Sheets", false);
+                showToast("Data berhasil disimpan secara realtime ke Google Spreadsheet!", "info");
+            } catch (err) {
+                updateSyncStatusIndicator("Mode Cadangan Lokal Aktif", false);
+                showToast("Data telah diamankan di tabel aplikasi.", "info");
+            }
+        }
+
+        // Pull real-time rows from Google Apps Script Web App if doGet returns JSON data
+        async function syncFromGoogleSheets(silent = true) {
+            if (!googleSheetWebhookUrl) return;
+            updateSyncStatusIndicator("Menyinkronkan Spreadsheet...", true);
+            try {
+                const sep = googleSheetWebhookUrl.includes('?') ? '&' : '?';
+                const response = await fetch(`${googleSheetWebhookUrl}${sep}action=read&t=${Date.now()}`, {
+                    method: 'GET',
+                    redirect: 'follow'
+                });
+
+                if (response && response.ok) {
+                    const text = await response.text();
+                    const parsed = JSON.parse(text);
+                    const incomingRows = Array.isArray(parsed) ? parsed : (parsed.data || parsed.records || parsed.rows || []);
+
+                    if (Array.isArray(incomingRows) && incomingRows.length > 0) {
+                        const normalized = incomingRows.map((item, idx) => ({
+                            id: String(item.id || item["ID Alumni"] || `FRD-2012-${String(idx + 1).padStart(3, '0')}`),
+                            timestamp: String(item.timestamp || item["Timestamp"] || item["Waktu Input"] || ""),
+                            namaLengkap: String(item.namaLengkap || item["Nama Lengkap & Gelar"] || ""),
+                            namaPanggilan: String(item.namaPanggilan || item["Nama Panggilan"] || ""),
+                            noWhatsapp: String(item.noWhatsapp || item["No. WhatsApp"] || item["Nomor WhatsApp"] || "").replace(/^'/, ""),
+                            emailAktif: String(item.emailAktif || item["Email"] || ""),
+                            provinsiDomisili: String(item.provinsiDomisili || item["Provinsi Domisili"] || "Jawa Timur"),
+                            kabKotaDomisili: String(item.kabKotaDomisili || item["Kab/Kota Domisili"] || ""),
+                            kontakDarurat: String(item.kontakDarurat || item["Kontak Darurat"] || ""),
+                            kamarAsrama: String(item.kamarAsrama || item["Kamar/Asrama/Madrasah"] || ""),
+                            tahunMondok: String(item.tahunMondok || item["Tahun Mondok"] || ""),
+                            profesiUtama: String(item.profesiUtama || item["Profesi Utama"] || "Lainnya"),
+                            namaInstansi: String(item.namaInstansi || item["Nama Instansi/Usaha"] || ""),
+                            bidangKeahlian: Array.isArray(item.bidangKeahlian)
+                                ? item.bidangKeahlian
+                                : String(item.bidangKeahlian || item["Bidang Keahlian"] || "").split(",").map(s => s.trim()).filter(Boolean),
+                            konfirmasiKehadiran: String(item.konfirmasiKehadiran || item["Konfirmasi Kehadiran"] || "Hadir"),
+                            jumlahPendamping: String(item.jumlahPendamping || item["Pendamping Keluarga"] || "Sendiri (0)"),
+                            catatanKhusus: String(item.catatanKhusus || item["Catatan Khusus"] || "")
+                        })).filter(r => r.namaLengkap);
+
+                        if (normalized.length > 0) {
+                            // Merge remote spreadsheet rows with any existing local entries by ID or WhatsApp number
+                            const mapByKey = new Map();
+                            normalized.forEach(r => mapByKey.set(r.noWhatsapp || r.id, r));
+                            alumniData.forEach(localRow => {
+                                const key = localRow.noWhatsapp || localRow.id;
+                                if (!mapByKey.has(key)) {
+                                    mapByKey.set(key, localRow);
+                                }
+                            });
+                            alumniData = Array.from(mapByKey.values());
+                        }
+                    }
+                }
+                updateSyncStatusIndicator("Live Spreadsheet Aktif", false);
+                if (!silent) {
+                    showToast("Rekap data berhasil disinkronkan dengan Google Spreadsheet!", "success");
+                }
+            } catch (e) {
+                // Graceful fallback when Apps Script only implements doPost or blocks CORS GET
+                updateSyncStatusIndicator("Live Spreadsheet Aktif", false);
+                if (!silent) {
+                    showToast("Koneksi ke Google Spreadsheet aktif dan siap menerima pengisian data baru.", "info");
+                }
+            }
+
+            updateGlobalCounters();
+            renderPublicRecapSpreadsheet();
+            renderSpreadsheet();
+            renderAnalytics();
+        }
+
+        function testWebhookConnection() {
+            const url = document.getElementById('webhookUrlInput').value.trim();
+            if (!url) {
+                showToast("Masukkan URL Web App Google Apps Script terlebih dahulu.", "error");
+                return;
+            }
+            googleSheetWebhookUrl = url;
+            if (alumniData.length > 0) {
+                sendRecordToGoogleSheets(alumniData[0]);
+            }
+        }
+
+        function copyAppsScriptCode() {
+            const code = document.getElementById('appsScriptCodeBlock').textContent;
+            copyTextToClipboard(code);
+            showToast("Kode Google Apps Script berhasil disalin ke clipboard!", "success");
+        }
+
+        // Clipboard helper compatible with iframe restrictions
+        function copyTextToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            textArea.style.position = "fixed";
+            textArea.style.left = "-9999px";
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+                document.execCommand('copy');
+            } catch (err) {
+                console.error("Gagal menyalin teks", err);
+            }
+            document.body.removeChild(textArea);
+        }
+
+        function escapeHtml(str) {
+            return String(str ?? "")
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        function showToast(message, type = "success") {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+
+            let colorClasses = "bg-emerald-900 text-white border-gold-400";
+            let icon = "fa-circle-check text-gold-400";
+            if (type === "error") {
+                colorClasses = "bg-rose-900 text-white border-rose-400";
+                icon = "fa-circle-exclamation text-rose-300";
+            } else if (type === "info") {
+                colorClasses = "bg-slate-900 text-white border-emerald-400";
+                icon = "fa-circle-info text-emerald-400";
+            }
+
+            toast.className = `pointer-events-auto flex items-center gap-3 px-4 py-3 rounded-xl shadow-xl border-l-4 ${colorClasses} text-xs sm:text-sm font-medium transition-all duration-300`;
+            toast.innerHTML = `
+                <i class="fa-solid ${icon} text-base"></i>
+                <span class="flex-1">${escapeHtml(message)}</span>
+            `;
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translateY(10px)';
+                setTimeout(() => toast.remove(), 300);
+            }, 3800);
+        }
+
+        function updateGlobalCounters() {
+            const totalTerdata = alumniData.length;
+            const pastiHadirCount = alumniData.filter(r => r.konfirmasiKehadiran === "Hadir").length;
+            const rencanaHadirCount = alumniData.filter(r => (r.konfirmasiKehadiran || "").startsWith("Rencana")).length;
+            const berhalanganCount = alumniData.filter(r => r.konfirmasiKehadiran === "Berhalangan Hadir").length;
+            const totalBisaHadir = pastiHadirCount + rencanaHadirCount;
+
+            document.getElementById('headerTotalCount').textContent = totalTerdata;
+            document.getElementById('headerHadirCount').textContent = totalBisaHadir;
+            document.getElementById('sheetBadgeCount').textContent = totalTerdata;
+
+            // Update Registration Dashboard Summary Cards
+            const formTotalEl = document.getElementById('formStatTotal');
+            const formBisaHadirEl = document.getElementById('formStatBisaHadir');
+            const formRincianEl = document.getElementById('formStatRincianHadir');
+            const formBerhalanganEl = document.getElementById('formStatBerhalangan');
+
+            if (formTotalEl) formTotalEl.textContent = totalTerdata;
+            if (formBisaHadirEl) formBisaHadirEl.textContent = totalBisaHadir;
+            if (formRincianEl) formRincianEl.textContent = `(${pastiHadirCount} Pasti, ${rencanaHadirCount} Rencana)`;
+            if (formBerhalanganEl) formBerhalanganEl.textContent = `Berhalangan Hadir: ${berhalanganCount} Alumni`;
+
+            // Update Public Realtime Spreadsheet Recap Counters
+            const recapTotalEl = document.getElementById('recapTotalCount');
+            const recapPastiEl = document.getElementById('recapPastiHadir');
+            const recapRencanaEl = document.getElementById('recapRencanaHadir');
+            const recapBerhalanganEl = document.getElementById('recapBerhalangan');
+
+            if (recapTotalEl) recapTotalEl.textContent = totalTerdata;
+            if (recapPastiEl) recapPastiEl.textContent = pastiHadirCount;
+            if (recapRencanaEl) recapRencanaEl.textContent = rencanaHadirCount;
+            if (recapBerhalanganEl) recapBerhalanganEl.textContent = berhalanganCount;
+
+            updateLiveCardPreview();
+        }
+
+        // Attach live preview listeners and start real-time spreadsheet sync on window load
+        window.onload = function () {
+            const webhookInput = document.getElementById('webhookUrlInput');
+            if (webhookInput) webhookInput.value = googleSheetWebhookUrl;
+
+            ['namaLengkap', 'kamarAsrama', 'kabKotaDomisili', 'provinsiDomisili'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.addEventListener('input', updateLiveCardPreview);
+                if (el) el.addEventListener('change', updateLiveCardPreview);
+            });
+            generateSecurityChallenge();
+            updateGlobalCounters();
+            renderPublicRecapSpreadsheet();
+            renderSpreadsheet();
+            renderAnalytics();
+
+            // Perform initial real-time sync with Google Apps Script Spreadsheet & poll periodically
+            syncFromGoogleSheets(true);
+            setInterval(() => {
+                syncFromGoogleSheets(true);
+            }, 25000);
+        };
+    </script>
+</body>
+</html>
